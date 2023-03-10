@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg #fff, #000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 30px;
+    color: salmon;
+}
+
+form p {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.input-single {
+    position: relative;
+    margin: 30px 0px;
+}
+
+.input-single label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    cursor: text;
+}
+
+.input {
+    width: 100%;
+    border: 0px;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #790505;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=submit]{
+    padding: 10px 40px;
+    border:0;
+    border-radius: 10px;
+    color: rgb(0, 0, 0) ;
+    font-size: 15px;
+    background-image: linear-gradient(45deg,  rgba(219, 158, 158, 0.808), rgb(218, 136, 136)) ;
+    cursor: pointer;
+}
