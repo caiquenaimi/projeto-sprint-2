@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(45deg #fff, #000);
+    background-image: linear-gradient(45deg, #3C4FFA, #509BFA);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 form {
-    background-color: #fff;
+    background-color: #ffffff;
     max-width: 500px;
     height: 450px;
     padding: 40px;
@@ -34,7 +34,7 @@ form {
 form h1 {
     text-align: center;
     font-size: 30px;
-    color: salmon;
+    color: rgb(114, 162, 250);
 }
 
 form p {
@@ -64,24 +64,24 @@ form p {
     outline: none;
 }
 
-form .input-single .input:focus ~ label,
-form .input-single .input:valid ~ label{
+form .input-single .input:focus~label,
+form .input-single .input:valid~label {
     transform: translateY(-24px);
     font-size: 12px;
-    color: #790505;
+    color: #075c94;
 }
 
-.btn{
+.btn {
     width: 100%;
     text-align: center;
 }
 
-form input[type=submit]{
+form input[type=submit] {
     padding: 10px 40px;
-    border:0;
+    border: 0;
     border-radius: 10px;
-    color: rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
     font-size: 15px;
-    background-image: linear-gradient(45deg,  rgba(219, 158, 158, 0.808), rgb(218, 136, 136)) ;
+    background-image: linear-gradient(45deg, #5360d6, #509BFA);
     cursor: pointer;
 }
