@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -32,7 +32,7 @@ ul {
     text-decoration: none;
 }
 
-ul a{
+ul a {
     text-decoration: none;
     color: white;
 }
@@ -41,39 +41,55 @@ li {
     list-style-type: none;
 }
 
-nav{
+nav {
     background-color: aqua;
     text-align: center;
 }
 
-nav ul{
+nav ul {
     display: inline-flex;
 }
 
-nav ul li{
+nav ul li {
     width: 120px;
     margin: 15px;
     padding: 8px;
 }
 
-.sub-menu1{
+.sub-menu1 {
     display: none;
 }
 
-nav ul li:hover .sub-menu1{
+nav ul li:hover .sub-menu1 {
     display: block;
     position: absolute;
     background-color: aqua;
     margin-top: 15px;
-    margin-left: -38px;
+    margin-left: -35px;
 }
 
-nav ul li:hover .sub-menu1 ul{
+nav ul li:hover .sub-menu1 ul {
     display: block;
+    position: absolute;
+
 
 }
 
-nav ul li:hover .sub-menu1 ul li{
-    width: 150px;
+nav ul li:hover .sub-menu1 ul li {
+    width: 140px;
     text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu1 ul li:hover {
+    background-color: rgb(82, 177, 194);
+}
+
+.sub-menu2{
+    display: none;
+}
+
+.hover-sub:hover .sub-menu2{
+    
 }
