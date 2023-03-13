@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 2px;
+}
+
+footer p {
+    color: black;
+    font-weight: bold;
+}
