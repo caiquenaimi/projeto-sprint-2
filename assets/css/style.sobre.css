@@ -66,7 +66,7 @@ body{
     display: flex;
     margin-top: 30px;
 }
-#s4{
+a{
     background-color: rgb(96, 190, 219);
     width: 33%;
     height: 400px;
@@ -75,8 +75,9 @@ body{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
 -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
 box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-border-left: solid 5px black;
+border-left: solid 5px black;   
 }
+
 
 #s5  {
 background-color: rgb(96, 190, 219);
