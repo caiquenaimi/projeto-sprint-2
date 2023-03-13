@@ -9,3 +9,16 @@
     position: relative;
 }
 
+p{
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
