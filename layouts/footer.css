@@ -8,7 +8,8 @@
     margin-top:0;
     margin-bottom:12px;
     font-weight:bold;
-    font-size:16px;
+    font-size:30px;
+    text-align: center;
   }
   
   .footer-dark ul {
@@ -17,6 +18,7 @@
     line-height:1.6;
     font-size:14px;
     margin-bottom:0;
+    
   }
   
   .footer-dark ul a {
@@ -38,6 +40,7 @@
   
   .footer-dark .item.text {
     margin-bottom:36px;
+    text-align: justify;
   }
   
   @media (max-width:767px) {
@@ -92,6 +95,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: #282d32;
     margin: 0px;
+    padding: 0%;
   }
 
- 
+  footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #282d32;
+    text-align: center
+  }
