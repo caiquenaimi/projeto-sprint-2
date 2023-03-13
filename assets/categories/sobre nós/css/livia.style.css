@@ -1,6 +1,8 @@
 body{text-align: center;
     font-family: system-ui;
-    border-left: solid 5px black;}
+    border-left: solid 5px black;
+     
+     }
 
 .container{
     background-color: rgb(96, 190, 219);
