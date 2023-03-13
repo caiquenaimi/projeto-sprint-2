@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-  <link rel="stylesheet" href="../assets/css/style.contato.css">
-    <title>kami news:contato</title>
-</head>
-<body>
-   
-    <section class="form-container">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../assets/css/style.contato.css" />
+    <title>kami news: contato</title>
+  </head>
+  <body>
+    <form action="./success.html">
+      <section class="form-container">
         <div class="container">
+          <h1>Entre em contato</h1>
+          <p>Preencha o formulário abaixo e entraremos em contato com você</p>
           
-          <form action="./success.html">
-            <h1>Entre em contato</h1>
-            <p>Preencha o formulário abaixo e entraremos em contato com você</p>
-  
-            <div class="input-single">
-              <input
-                type="text"
-                id="nome-box"
-                class="input"
-                autocomplete="off"
-                required
-              />
-              <label for="nome-box">Seu nome completo</label>
+          <div class="input-single">
+            <input
+            type="text"
+            id="nome-box"
+            class="input"
+            autocomplete="off"
+            required
+            />
+            <label for="nome-box">Seu nome completo</label>
+          </div>
+          
+          <div class="input-single">
+            <input
+            type="email"
+            id="email-box"
+            class="input"
+            autocomplete="off"
+            required
+            />
+            <label for="email-box">Seu E-mail</label>
+          </div>
+          
+          <div class="input-single">
+            <input
+            type="text"
+            id="nome-box"
+            class="input"
+            autocomplete="off"
+            required
+            />
+            <label for="nome-box">Seu telefone</label>
+            
+            <div class="popup" id="success">
+              <div class="popup-content">
+                <div class="imgbox">
+                  <img src="../assets/images/checked.png" alt="" class="img">
+                </div>
+                <div class="title">
+                  <h3>Success!</h3>
+                </div>
+                <p class="para">Seu formulário foi enviado com sucesso</p>
+                <form action="">
+                  <a href="../index.html" target="_parent" class="button" id="s_button">Home</a>
+                </form>
+
+              </div>
             </div>
-  
-            <div class="input-single">
-              <input
-                type="email"
-                id="email-box"
-                class="input"
-                autocomplete="off"
-                required
-              />
-              <label for="email-box">Seu E-mail</label>
-            </div>
-  
-            <div class="input-single">
-              <input
-                type="text"
-                id="nome-box"
-                class="input"
-                autocomplete="off"
-                required
-              />
-              <label for="nome-box">Seu telefone</label>
-            </div>
-  
-            <div class="btn"><input type="submit" /></div>
-          </form>
+          </div>
         </div>
-      </section>
-    </body>
-  </html>
-  
+        
+      </div>
+    </div>
     
+    <p>  <a href="#" class="trigger_popup" id="success_trigger">Enviar</a></p>
+    <script src="main.js"></script>
+  </section>
+</form>
 </body>
 </html>
-       
