@@ -27,20 +27,7 @@ h2{
     color: rgb(14, 14, 142);
 }
 /* id das sections*/
-    #s1{
-        -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-        -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-        box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-        border-radius: 5px;
-        border-left: solid 5px blue;
-        text-align: justify;
-       margin-right: 10px;
-       margin-left: 10px;
-       width: 50%;
-       height: 400px;
-       background-color: white;
-       padding: 10px;
-    }
+    
 #s2{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -119,4 +106,36 @@ h2{
 #a4{
     display: flex;
     padding-top: 20px;
+}
+a{
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    border-radius: 5px;
+    border-left: solid 5px blue;
+    text-align: justify;
+   margin-right: 10px;
+   margin-left: 10px;
+   width: 50%;
+   height: 400px;
+   background-color: white;
+   padding: 10px;
+   text-decoration: none;
+   color: black;
+}
+#s2{
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    border-radius: 5px;
+    border-left: solid 5px blue;
+    text-align: justify;
+   margin-right: 10px;
+   margin-left: 10px;
+   width: 50%;
+   height: 400px;
+   background-color: white;
+   padding: 10px;
+   text-decoration: none;
+   color: black;
 }
