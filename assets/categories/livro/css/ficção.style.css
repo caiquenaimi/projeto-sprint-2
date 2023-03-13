@@ -1,6 +1,8 @@
 #a1{
     display: flex;
     margin-left: 20px;
+    margin-right: 20px;
+   
 }
 /* sections */
 #s1{
@@ -10,9 +12,10 @@
     border-radius: 5px;
     border-left: solid 5px blue;
     text-align: justify;
-    width: 33%;
-    height: 200px;
+    width: 50%;
+    height: 300px;
     text-align: center;
+    margin-right: 10px;
 }
 body{
     text-align: center;
@@ -27,9 +30,10 @@ body{
     border-radius: 5px;
     border-left: solid 5px blue;
     text-align: justify;
-    width: 33%;
-    height: 200px;
+    width: 50%;
+    height: 300px;
     text-align: center;
+    margin-left: 10px;
     }
     #s3{
         -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -38,14 +42,16 @@ body{
         border-radius: 5px;
         border-left: solid 5px blue;
         text-align: justify;
-        width: 33%;
-        height: 200px;
+        width: 50%;
+        height: 300px;
         text-align: center;
+        margin-right: 10px;
     }
     /*article*/
     #a2{
         display: flex;
         margin-left: 20px;
+        margin-right: 20px;
         margin-top: 20px;
     }
     #s4{
@@ -55,9 +61,10 @@ body{
         border-radius: 5px;
         border-left: solid 5px blue;
         text-align: justify;
-        width: 33%;
-        height: 200px;
+        width: 50%;
+        height: 300px;
         text-align: center;
+        margin-left: 10px;
     }
     #s5{
         -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -66,14 +73,17 @@ body{
         border-radius: 5px;
         border-left: solid 5px blue;
         text-align: justify;
-        width: 33%;
-        height: 200px;
+        width: 50%;
+        height: 300px;
         text-align: center;
+        margin-right: 10px;
     }
     #a3{
         display: flex;
-        margin-left: 20px;
+       margin-left: 20px;
+       margin-right: 20px;
         margin-top: 20px;
+        
     }
     #s6{
         -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -82,7 +92,8 @@ body{
         border-radius: 5px;
         border-left: solid 5px blue;
         text-align: justify;
-        width: 33%;
-        height: 200px;
+        width: 50%;
+        height: 300px;
         text-align: center;
+       margin-left: 10px;
     }
