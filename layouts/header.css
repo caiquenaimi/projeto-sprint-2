@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+    position: relative;
+}
+
