@@ -1,0 +1,20 @@
+#a1{
+    display: flex;
+}
+#s1{
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    border-radius: 5px;
+    border-left: solid 5px blue;
+    text-align: justify;
+    width: 33%;
+    height: 200px;
+    text-align: center;
+}
+body{
+    text-align: center;
+    font-family: system-ui;
+   border-left: solid 5px blue;
+   border-right: solid 5px blue
+}

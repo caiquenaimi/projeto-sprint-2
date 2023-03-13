@@ -2,9 +2,9 @@ body{
     text-align: center;
     font-family: system-ui;
    border-left: solid 5px blue;
-   border-right: solid 5px blue;
-  
+   border-right: solid 5px blue
 }
+/* article */
 #a1{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -14,7 +14,10 @@ body{
     text-align: justify;
    margin-right: 10px;
    margin-left: 10px;
+   padding: 10px;
+   margin-bottom: 20px;
 }
+
 #a2{
    
    display: flex;
@@ -23,6 +26,7 @@ h2{
     text-align: center;
     color: rgb(14, 14, 142);
 }
+/* id das sections*/
     #s1{
         -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -35,6 +39,7 @@ h2{
        width: 50%;
        height: 400px;
        background-color: white;
+       padding: 10px;
     }
 #s2{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -48,7 +53,9 @@ h2{
    width: 50%;
    height: 400px;
    background-color: white;
+   padding: 10px;
 }
+/* article */
 #a3{
     display: flex;
     padding-top: 20px;
@@ -65,6 +72,7 @@ h2{
        width: 50%;
        height: 400px;
        background-color: white;
+       padding: 10px;
 }
 #s4{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -78,6 +86,7 @@ h2{
        width: 50%;
        height: 400px;
        background-color: white;
+       padding: 10px;
 }
 #s5{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -91,6 +100,7 @@ h2{
    width: 50%;
    height: 400px;
    background-color: white;
+   padding: 10px;
 }
 #s6{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -104,6 +114,7 @@ h2{
    width: 50%;
    height: 400px;
    background-color: white;
+   padding: 10px;
 }
 #a4{
     display: flex;
