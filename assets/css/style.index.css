@@ -55,6 +55,26 @@ article .container {
 
 article .container section {
     width: 70%;
+
+}
+
+article .container section .botao {
+    text-align: center;
+    margin: 20px 0;
+}
+
+article .container section .botao a{
+    padding: 10px 360px;
+    background-color: #509bfa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.centralizarCards {
+    display: flex;
+    justify-content: center;
 }
 
 article .container section .card {
