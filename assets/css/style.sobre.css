@@ -1,7 +1,39 @@
 .container{
     text-align: justify;
     background-color: rgb(96, 190, 219);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
 }
 body{
     text-align: center;
+}
+.container2{
+  
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+#a1{
+    display: flex;
+}
+
+#s1{
+    background-color: rgb(96, 190, 219);
+    width: 30%;
+    height: 200px;
+    
+}
+#s2{
+    background-color: rgb(96, 190, 219);
+    width: 33%;
+    height: 200px;
+    margin-left: 20px;
+}
+#s3{
+    background-color: rgb(96, 190, 219);
+    width: 33%;
+    height: 200px;
+    margin-left: 20px;
 }
