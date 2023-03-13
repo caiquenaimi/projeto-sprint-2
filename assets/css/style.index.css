@@ -118,11 +118,10 @@ article .container aside #maisLidos {
 
 article .container aside .card-2 {
     display: flex;
-}
-
-
-article .container aside .card-2 {
     margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
 }
 
 article .container aside .card-2 .legend {
