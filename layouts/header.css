@@ -25,7 +25,7 @@ header {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 /* ajustes da ul para deixar os links um do lado do outro */
@@ -40,7 +40,7 @@ ul {
 /* tirar decoraçoes dos links */
 ul a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 245, 245);
 }
 
 
@@ -65,7 +65,7 @@ nav ul li {
 
 .sub-menu1 {
     display: none;
-    background-color: aqua;
+    background-color: rgb(73, 236, 248);
 }
 
 nav ul li:hover .sub-menu1 {
@@ -100,6 +100,45 @@ nav ul li:hover .sub-menu1 ul li:hover {
 }
 
 .hover-sub:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 118px;
+    background-color: aqua;
+}
+
+.sub-sobre{
+    display: none;
+    background-color: rgb(73, 236, 248);
+}
+
+nav ul li:hover .sub-sobre{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -35px;
+}
+
+/* sub-sobre é o menu do sobre nós */
+nav ul li:hover .sub-sobre ul {
+    display: block;
+    position: absolute;
+}
+
+nav ul li:hover .sub-sobre ul li {
+    width: 140px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.sub-sobre2{
+    display: none;
+    background-color: aqua;
+}
+
+.hover-sobre:hover .sub-sobre2{
     display: block;
     position: absolute;
     margin-top: -40px;
