@@ -41,26 +41,26 @@ body {
 }
 
 .carrosel .noticia1 section article .container h1 {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 h2 {
     margin: 10px;
 }
 
-article .container{
+article .container {
     display: flex;
 }
 
 article .container section {
-    width: 60%;
+    width: 70%;
 }
 
 article .container section .card {
     box-shadow: 0px 0px 20px 1px #000;
     border-radius: 5px;
-    padding: 12px;
+    padding: 20px;
     margin: 8px;
     display: inline-block;
     text-align: center;
@@ -73,29 +73,36 @@ article .container section .card button {
 }
 
 article .container aside {
-    width: 40%;
+    width: 30%;
     border-left: 3px solid #000;
+}
+
+article .container aside hr {
+    margin: 20px;
 }
 
 article .container aside #maisLidos {
     margin-bottom: 20px;
 }
 
-.container2 {
-    margin: 0;
-    padding: 0;
+article .container aside .card-2 {
     display: flex;
 }
 
-article .container aside section {
+
+article .container aside .card-2 {
     margin-left: 10px;
 }
 
-article .container aside section .container2 .legend {
+article .container aside .card-2 .legend {
     display: block;
 }
 
-article .container aside section .container2 img {
-    margin-right: 10px;
-    
+article .container aside .card-2 .legend p {
+    text-align: justify;
+}
+
+article .container aside .card-2 img {
+    margin: 0px 10px;
+
 }
