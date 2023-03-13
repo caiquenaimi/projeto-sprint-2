@@ -1,9 +1,11 @@
+/* tirar espaços brancos por volta do site */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* configuraçoes da logo */
 .logo {
     width: 110px;
     height: 110px;
@@ -11,10 +13,12 @@
     padding: 4px;
 }
 
+/* deixar a logo no meio */
 p {
     text-align: center;
 }
 
+/* cor de fundo e da fonte */
 header {
     background-color: black;
     color: white;
@@ -24,6 +28,7 @@ body {
     background-color: black;
 }
 
+/* ajustes da ul para deixar os links um do lado do outro */
 ul {
     display: flex;
     justify-content: space-evenly;
@@ -32,10 +37,12 @@ ul {
     text-decoration: none;
 }
 
+/* tirar decoraçoes dos links */
 ul a {
     text-decoration: none;
     color: white;
 }
+
 
 li {
     list-style-type: none;
