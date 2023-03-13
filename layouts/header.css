@@ -58,6 +58,7 @@ nav ul li {
 
 .sub-menu1 {
     display: none;
+    background-color: aqua;
 }
 
 nav ul li:hover .sub-menu1 {
@@ -88,8 +89,13 @@ nav ul li:hover .sub-menu1 ul li:hover {
 
 .sub-menu2{
     display: none;
+    background-color: aqua;
 }
 
 .hover-sub:hover .sub-menu2{
-    
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 118px;
+    background-color: aqua;
 }
