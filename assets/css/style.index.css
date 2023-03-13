@@ -63,14 +63,18 @@ article .container section .botao {
     margin: 20px 0;
 }
 
-article .container section .botao a{
+article .container section .botao a {
     padding: 10px 360px;
     background-color: #509bfa;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-
 }
+
+article .container section .botao a:hover {
+    background-color: #294c79;
+}
+
 
 .centralizarCards {
     display: flex;
@@ -87,9 +91,16 @@ article .container section .card {
 }
 
 article .container section .card button {
+    margin-top: 5px;
     padding: 5px;
     background-color: #509bfa;
     border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+article .container section .card button:hover {
+    background-color: #294c79;
 }
 
 article .container aside {
