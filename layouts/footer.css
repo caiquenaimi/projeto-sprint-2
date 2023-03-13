@@ -40,13 +40,12 @@
   
   .footer-dark .item.text {
     margin-bottom:36px;
-    text-align: justify;
   }
   
   @media (max-width:767px) {
-    .footer-dark .item.text {
+    .footer-dark .item.text 
       margin-bottom:0;
-    }
+
   }
   
   .footer-dark .item.text p {
