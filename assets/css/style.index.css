@@ -7,8 +7,9 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* estilizacao do carrosel */
 
-.s1 img {
+.slide img {
     border-radius: 5px;
 }
 
@@ -37,10 +38,6 @@ body {
     cursor: pointer;
     transition: 0.6s;
 }
-
-/* .carrosel .navigation label:checked~label {
-    background-color: #509bfa;
-} */
 
 input {
     display: none;
@@ -86,17 +83,17 @@ input {
     margin-left: -40%;
 }
 
-.carrosel .s1 {
+.carrosel .slide {
     display: flex;
 }
 
-.carrosel .s1 section {
+.carrosel .slide section {
     width: 50%;
     margin: 10px;
 
 }
 
-.carrosel .s1 section article {
+.carrosel .slide section article {
     margin: 15px 0px;
     border-left: 7px solid #3c4ffa;
     background-color: #fff;
@@ -105,19 +102,21 @@ input {
     border-radius: 5px;
 }
 
-.carrosel .s1 section article .container {
+.carrosel .slide section article .container {
     display: flex;
 }
 
-.carrosel .s1 section article .container img {
+.carrosel .slide section article .container img {
     margin-right: 20px;
 
 }
 
-.carrosel .s1 section article .container h1 {
+.carrosel .slide section article .container h1 {
     display: flex;
     align-items: center;
 }
+
+/* estilizacao dos livros e filmes recomendados  */
 
 h2 {
     margin: 10px;
@@ -176,6 +175,8 @@ article .container section .card button {
 article .container section .card button:hover {
     background-color: #294c79;
 }
+
+/* estilizacao do aside  */
 
 article .container aside {
     width: 30%;
