@@ -93,7 +93,12 @@ input {
 
 }
 
-.carrosel .slide section article {
+.carrosel .slide section a {
+    text-decoration: none;
+    color: #000;
+}
+
+.carrosel .slide section a article {
     margin: 15px 0px;
     border-left: 7px solid #3c4ffa;
     background-color: #fff;
@@ -102,16 +107,17 @@ input {
     border-radius: 5px;
 }
 
-.carrosel .slide section article .container {
+.carrosel .slide section a article .container {
     display: flex;
 }
 
-.carrosel .slide section article .container img {
+.carrosel .slide section a article .container img {
     margin-right: 20px;
+    object-fit: cover;
 
 }
 
-.carrosel .slide section article .container h1 {
+.carrosel .slide section a article .container h1 {
     display: flex;
     align-items: center;
 }
