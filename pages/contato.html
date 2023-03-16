@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../assets/css/style.contato.css">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../assets/css/style.contato.css" />
+    <title>kami news: contato</title>
+  </head>
+  <body>
+    <!-- criação do formulário de contato -->
+    <form action="./success.html">
+      <section class="form-container">
+        <div class="container">
+          <h1>Entre em contato</h1>
+          <p>Preencha o formulário abaixo e entraremos em contato com você📲</p>
+          
+          <!-- div para o input de nome -->
+          <div class="input-single">
+            <input
+            type="text"
+            id="nome-box"
+            class="input"
+            autocomplete="off"
+            required
+            />
+            <label for="nome-box">Seu nome completo 👦🏻</label>
+          </div>
+          
+          <!-- div para o input de email -->
+          <div class="input-single">
+            <input
+            type="email"
+            id="email-box"
+            class="input"
+            autocomplete="off"
+            required
+            />
+            <label for="email-box">Seu E-mail 📧</label>
+          </div>
+          
+          <!-- div para input de mensagem -->
+          <div class="input-single">
+            <input
+            type="text"
+            id="nome-box"
+            class="input"
+            autocomplete="off"
+            required
+            />
+            <label for="nome-box">Seu telefone 📞</label>
+
+          <!-- div para o botão de enviar -->
+          </div>
+          <div onclick="openModal()" class="btn">Enviar</div>
+        
+          <!-- div para a janela modal de success -->
+          <div id="modal-container" class="modal-container">
+              <div class="modal">
+                  <p id="p"><button class="fechar" id="fechar">X</button></p>
+                  <h1 id="h1">Parabéns</h1>
+                  <p class="p" id="pimg"><img class="img" src="../assets/images/checked.png" alt=""></p>
+                  <p>Seu formulário foi enviado com sucesso🎉</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<!-- impotação do código java script -->
+<script src="main.js"></script>
+</section>
+</form>
 </body>
 </html>
