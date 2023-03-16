@@ -81,11 +81,11 @@ form input[type=submit] {
     cursor: pointer;
 }
 
-/* form p {
+form p {
     text-align: center;
     margin: 20px 0px;
 }
- */
+
 
  .img {
     width: 112px;
