@@ -6,12 +6,14 @@
     <title>kami news: contato</title>
   </head>
   <body>
+    <!-- criação do formulário de contato -->
     <form action="./success.html">
       <section class="form-container">
         <div class="container">
           <h1>Entre em contato</h1>
           <p>Preencha o formulário abaixo e entraremos em contato com você📲</p>
           
+          <!-- div para o input de nome -->
           <div class="input-single">
             <input
             type="text"
@@ -23,6 +25,7 @@
             <label for="nome-box">Seu nome completo 👦🏻</label>
           </div>
           
+          <!-- div para o input de email -->
           <div class="input-single">
             <input
             type="email"
@@ -34,6 +37,7 @@
             <label for="email-box">Seu E-mail 📧</label>
           </div>
           
+          <!-- div para input de mensagem -->
           <div class="input-single">
             <input
             type="text"
@@ -44,13 +48,11 @@
             />
             <label for="nome-box">Seu telefone 📞</label>
 
-            
-            
-            
+          <!-- div para o botão de enviar -->
           </div>
           <div onclick="openModal()" class="btn">Enviar</div>
         
-          
+          <!-- div para a janela modal de success -->
           <div id="modal-container" class="modal-container">
               <div class="modal">
                   <p id="p"><button class="fechar" id="fechar">X</button></p>
@@ -65,7 +67,7 @@
     </div>
   </div>
 
-
+<!-- impotação do código java script -->
 <script src="main.js"></script>
 </section>
 </form>

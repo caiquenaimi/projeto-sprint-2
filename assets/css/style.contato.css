@@ -1,3 +1,4 @@
+/* ajuste de margin e padding */
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* estilização da body como a cor de fundo e centralização */
 body {
     background-image: linear-gradient(45deg, #3C4FFA, #509BFA);
     background-position: center;
@@ -17,12 +19,14 @@ body {
     height: 100vh;
 }
 
+/* estilização div pai para alinhar o contéudo */
 .container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 4%;
 }
 
+/* estilização do formulário */
 form {
     background-color: #ffffff;
     max-width: 500px;
@@ -31,22 +35,26 @@ form {
     border-radius: 40px;
 }
 
+/* estilização h1 do formulário */
 form h1 {
     text-align: center;
     font-size: 30px;
     color: rgb(114, 162, 250);
 }
 
+/* estilização parágrafo do formulário */
 form p {
     text-align: center;
     margin: 20px 0px;
 }
 
+/* estilização dos inputs */
 .input-single {
     position: relative;
     margin: 30px 0px;
 }
 
+/* estilização dos labels dos inputs */
 .input-single label {
     position: absolute;
     left: 0;
@@ -55,6 +63,7 @@ form p {
     cursor: text;
 }
 
+/* estilização classe input  */
 .input {
     width: 100%;
     border: 0px;
@@ -64,6 +73,7 @@ form p {
     outline: none;
 }
 
+/* animação das labels do formulário */
 form .input-single .input:focus~label,
 form .input-single .input:valid~label {
     transform: translateY(-24px);
@@ -71,22 +81,24 @@ form .input-single .input:valid~label {
     color: #075c94;
 }
 
+/* estilização imagens */
 .img {
     width: 112px;
     margin-top: 40px;
 }
 
-
+/* estilização parágrafos */
 .p{
     text-align: center;
     font-size: 30px;
 }
 
+/* centralização h1 da model */
 #h1{
     text-align: center;
 }
 
-
+/* estilização botão de enviar */
 .btn{
     padding: 15px 40px;
     display: inline;
@@ -104,10 +116,12 @@ form .input-single .input:valid~label {
     left: 35%;
 }
 
+/* hover botão */
 .btn:hover{
     background-color: #164a8f;
 }
 
+/* estilização div pai da janela modal */
 .modal-container{
     width: 100vw;
     height: 100vh;
@@ -123,6 +137,7 @@ form .input-single .input:valid~label {
     backdrop-filter: blur(10px);
 }
 
+/* estilização janela modal */
 .modal{
     width: 326px;
     height: 408px;
@@ -133,6 +148,7 @@ form .input-single .input:valid~label {
     border-radius: 25px;
 }
 
+/* estilização X para fechar a janela modal */
 .fechar{
     position: absolute;
     top: -10px;
@@ -148,10 +164,12 @@ form .input-single .input:valid~label {
     cursor: pointer;
 }
 
+/* alinhamento margin do h1 da janela modal */
 .modal h1{
     margin-bottom: 20px;
 }
 
+/* animação janela modal */
 @keyframes animate-modal {
     from{
         opacity: 0;
@@ -164,10 +182,12 @@ form .input-single .input:valid~label {
     }
 }
 
+/* alinhamento janela modal */
 .modal-container.mostrar{
     display: flex;
 }
 
+/* animação abrir janela modal */
 .mostrar .modal{
     animation: animate-modal .3s;
 }
