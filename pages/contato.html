@@ -43,32 +43,31 @@
             required
             />
             <label for="nome-box">Seu telefone</label>
-            
-            <div class="popup" id="success">
-              <div class="popup-content">
-                <div class="imgbox">
-                  <button class="fechar" id="fechar">X</button>
-                  <img src="../assets/images/checked.png" alt="" class="img">
-                </div>
-                <div class="title">
-                  <h3>Parabéns</h3>
-                </div>
-                <p class="para">Seu formulário foi enviado com sucesso</p>
-                <form action="">
-                  <a href="../index.html" target="_parent" class="button" id="s_button">Home</a>
-                </form>
 
+            
+            
+            
+          </div>
+          <div onclick="openModal()" class="btn">Enviar</div>
+        
+          
+          <div id="modal-container" class="modal-container">
+              <div class="modal">
+                  <p id="p"><button class="fechar" id="fechar">X</button></p>
+                  <h1 id="h1">Parabéns</h1>
+                  <p class="p" id="pimg"><img class="img" src="../assets/images/checked.png" alt=""></p>
+                  <p>Seu formulário foi enviado com sucesso🎉</p>
               </div>
-            </div>
           </div>
         </div>
-        
       </div>
+      
     </div>
-    
-    <p>  <a href="#" class="trigger_popup" id="success_trigger">Enviar</a></p>
-    <script src="main.js"></script>
-  </section>
+  </div>
+
+
+<script src="main.js"></script>
+</section>
 </form>
 </body>
 </html>

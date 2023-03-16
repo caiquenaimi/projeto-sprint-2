@@ -1,17 +1,12 @@
-
-var success_popup=document.getElementById("success");
-
-var s_close=document.getElementById("s_button");
-
-var s_btn =document.getElementById("success_trigger");
-s_btn.onclick=function(){
-    success_popup.style.display ="block";
-
-}
-
-s_close.onclick =function(){
-    success_popup.style.display="none";
-}
-
-    
+function openModal(){
+    const modal = document.getElementById('modal-container')
+    modal.classList.add('mostrar')
+  
+    modal.addEventListener('click', (e) =>{
+        if (e.target.id == 'modal-container' || e.target.id == "fechar"){
+            modal.classList.remove('mostrar')
+            localStorage.fechaModal = 'modal-container'
+        }
+    })
+  }
 
