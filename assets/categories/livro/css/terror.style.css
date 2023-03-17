@@ -6,6 +6,7 @@
 }
 h1{
     text-align: center;
+    color: black;
 }
 /* sections */
 #s1{
@@ -13,42 +14,47 @@ h1{
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    border-left: solid 5px blue;
+    border-left: solid 5px rgb(197, 92, 245);
     text-align: justify;
     width: 50%;
     height: 300px;
-    
+    background-color: white;
     margin-right: 10px;
+    padding: 10px;
 }
 body{
    
     font-family: system-ui;
-   border-left: solid 5px blue;
-   border-right: solid 5px blue
+    border-left: solid 5px rgb(197, 92, 245);
+   border-right: solid 5px rgb(197, 92, 245);
+   background-image:linear-gradient(45deg, rgb(0, 0, 0), rgb(215, 208, 208));
+
 }
 #s2{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    border-left: solid 5px blue;
+    border-left: solid 5px rgb(197, 92, 245);
     text-align: justify;
     width: 50%;
     height: 300px;
-   
+    background-color: white;
     margin-left: 10px;
+    padding: 10px;
     }
     #s3{
         -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-        border-left: solid 5px blue;
+        border-left: solid 5px rgb(197, 92, 245);
         text-align: justify;
         width: 50%;
         height: 300px;
-      
+        background-color: white;
         margin-right: 10px;
+        padding: 10px;
     }
     /*article*/
     #a2{
@@ -62,24 +68,26 @@ body{
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-        border-left: solid 5px blue;
+        border-left: solid 5px rgb(197, 92, 245);
         text-align: justify;
         width: 50%;
         height: 300px;
-      
+        background-color: white;
         margin-left: 10px;
+        padding: 10px;
     }
     #s5{
         -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-        border-left: solid 5px blue;
+        border-left: solid 5px rgb(197, 92, 245);
         text-align: justify;
         width: 50%;
         height: 300px;
-    
+        background-color: white;
         margin-right: 10px;
+        padding: 10px;
     }
     #a3{
         display: flex;
@@ -93,10 +101,11 @@ body{
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-        border-left: solid 5px blue;
+        border-left: solid 5px rgb(197, 92, 245);
         text-align: justify;
         width: 50%;
         height: 300px;
-      
+        background-color: white;
        margin-left: 10px;
+       padding: 10px;
     }
