@@ -9,70 +9,88 @@ body {
 
 }
 
-main {
-    padding: 10px;
-}
-
-main article .container {
+.container {
     display: flex;
 }
 
-.container section .legend {
-    border-left: 2px solid rgb(84, 86, 88);
-
+.container main {
+    width: 70%;
 }
 
-.container section .legend span {
-    color: rgb(84, 86, 88);
-    font-size: 16px;
-    font-weight: normal;
-    margin-left: 5px;
-
+.container main article {
+    margin: auto;
 }
 
-article {
-    margin-bottom: 20px;
-    color: #000000;
+.container main article h1 {
+    text-align: center;
+    margin: 10px 0px;
 }
 
-.boxtext {
+.container main article section {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    justify-content: baseline;
+    align-items: center;
 }
 
-article h2 {
-    margin-top: 0;
-}
-
-article p:last-child {
+.container main article section span {
+    align-self: flex-end;
+    position: relative;
+    right: 150px;
     font-style: italic;
-    font-size: 12px;
-    color: #000000;
+    font-weight: bold;
+    color: #888;
+    font-size: 13px;
+
 }
 
-#img1 {
-    width: auto;
-    height: 500px;
-    border-radius: 15px;
+/* textos */
+
+.container main .container2 {
+    max-width: 900px;
+    margin: auto;
 }
 
-.container2 {
-    max-width: 1200px;
-    margin: 0 auto;
+.container main .container2 img {
+    height: auto;
+    margin: 10px 0;
 }
 
-.container2 hr {
-    margin-bottom: 10px;
+.container main .container2 .centerImg {
+    text-align: center;
 }
 
-.container2 article {
-    max-width: 1000px;
-    margin: 0 auto;
+
+.container aside {
+    width: 30%;
+    border-left: 3px solid #000;
 }
 
-.container2 article p {
-    font-style: normal;
-    font-size: 16px;
+.container aside hr {
+    margin: 20px;
+}
+
+.container aside #maisLidos {
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.container aside .card-2 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.container aside .card-2 .legend {
+    display: block;
+}
+
+.container aside .card-2 .legend p {
+    text-align: justify;
+}
+
+.container aside .card-2 img {
+    margin: 0px 10px;
+
 }
