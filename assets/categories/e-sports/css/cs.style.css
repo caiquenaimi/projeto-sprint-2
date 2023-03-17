@@ -45,6 +45,8 @@ p{
     align-items: center;
     padding: 25px 30px;
     box-shadow: 6px 6px 10px #000;
+    border-radius: 10px;
+    width: calc(100% / 3);
 }
 
 .cards .card h3 {
