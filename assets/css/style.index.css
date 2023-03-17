@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* estilizacao do carrosel */
+
+.slide img {
+    border-radius: 5px;
+}
+
+.carrosel {
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.carrosel .navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 80%;
+    display: flex;
+}
+
+.carrosel .navigation label {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid rgb(196, 196, 196);
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    width: 500%;
+    height: auto;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    height: auto;
+    transition: .6s;
+}
+
+#slide1:checked~.navigation #l1{
+    background-color: #509bfa;
+    border: 2px solid #fff;
+}
+
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked~.navigation #l2{
+    background-color: #509bfa;
+    border: 2px solid #fff;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked~.navigation #l3{
+    background-color: #509bfa;
+    border: 2px solid #fff;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -40%;
+}
+
+.carrosel .slide {
+    display: flex;
+}
+
+.carrosel .slide section {
+    width: 50%;
+    margin: 10px;
+
+}
+
+.carrosel .slide section a {
+    text-decoration: none;
+    color: #000;
+}
+
+.carrosel .slide section a article {
+    margin: 15px 0px;
+    border-left: 7px solid #3c4ffa;
+    background-color: #fff;
+    box-shadow: 5px 5px 17px 1px #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carrosel .slide section a article .container {
+    display: flex;
+}
+
+.carrosel .slide section a article .container img {
+    margin-right: 20px;
+    object-fit: cover;
+
+}
+
+.carrosel .slide section a article .container h1 {
+    display: flex;
+    align-items: center;
+}
+
+/* estilizacao dos livros e filmes recomendados  */
+
+h2 {
+    margin: 10px;
+}
+
+article .container {
+    display: flex;
+}
+
+article .container section {
+    width: 70%;
+
+}
+
+article .container section .botao {
+    text-align: center;
+    margin: 20px 0;
+}
+
+article .container section .botao a {
+    padding: 10px 360px;
+    background-color: #509bfa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+article .container section .botao a:hover {
+    background-color: #294c79;
+}
+
+
+.centralizarCards {
+    display: flex;
+    justify-content: center;
+}
+
+article .container section .card {
+    box-shadow: 0px 0px 20px 1px #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 8px;
+    display: inline-block;
+    text-align: center;
+}
+
+article .container section .card button {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #509bfa;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+article .container section .card button:hover {
+    background-color: #294c79;
+}
+
+/* estilizacao do aside  */
+
+article .container aside {
+    width: 30%;
+    border-left: 3px solid #000;
+}
+
+article .container aside hr {
+    margin: 20px;
+}
+
+article .container aside #maisLidos {
+    margin-bottom: 20px;
+}
+
+article .container aside .card-2 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+article .container aside .card-2 .legend {
+    display: block;
+}
+
+article .container aside .card-2 .legend p {
+    text-align: justify;
+}
+
+article .container aside .card-2 img {
+    margin: 0px 10px;
+
+}
