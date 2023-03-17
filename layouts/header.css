@@ -53,6 +53,7 @@ nav {
     text-align: center;
 }
 
+
 nav ul {
     display: inline-flex;
 }
@@ -166,3 +167,4 @@ nav ul li:hover .sub-sobre ul li {
     border-radius: 10px;
     transition: 0.7s;
 }
+
