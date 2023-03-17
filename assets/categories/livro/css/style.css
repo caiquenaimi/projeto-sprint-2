@@ -1,17 +1,25 @@
 body{
     text-align: center;
     font-family: system-ui;
-   border-left: solid 5px blue;
-   border-right: solid 5px blue;
+   background-color: rgb(0, 180, 246);
+
 
 }
+/*main*/
+main{
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    border-left: solid 4px cornflowerblue;
+}
+   
 /* article */
 #a1{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-    border-radius: 5px;
-    border-left: solid 5px blue;
+   
+    border-left: solid 4px cornflowerblue;
     text-align: justify;
    margin-right: 10px;
    margin-left: 10px;
@@ -24,8 +32,9 @@ body{
    display: flex;
 }
 h2{
-    text-align: center;
-    color: rgb(14, 14, 142);
+    text-align: justify;
+    margin-left: 20px;
+    
 }
 /* id das sections*/
     
@@ -39,8 +48,8 @@ h2{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-        border-radius: 5px;
-        border-left: solid 5px blue;
+       
+        border-left: solid 4px cornflowerblue;
         text-align: justify;
        margin-right: 10px;
        margin-left: 10px;
@@ -54,8 +63,8 @@ h2{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-    border-radius: 5px;
-    border-left: solid 5px blue;
+   
+    border-left: solid 4px cornflowerblue;
     text-align: justify;
    margin-right: 10px;
    margin-left: 10px;
@@ -73,8 +82,8 @@ a{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-    border-radius: 5px;
-    border-left: solid 5px blue;
+   
+    border-left: solid 4px cornflowerblue;
     text-align: justify;
    margin-right: 10px;
    margin-left: 10px;
@@ -89,8 +98,8 @@ a{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-    border-radius: 5px;
-    border-left: solid 5px blue;
+   
+    border-left: solid 4px cornflowerblue;
     text-align: justify;
    margin-right: 10px;
    margin-left: 10px;
@@ -106,8 +115,8 @@ a{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
-    border-radius: 5px;
-    border-left: solid 5px blue;
+  
+    border-left: solid 4px cornflowerblue;
     text-align: justify;
    margin-right: 10px;
    margin-left: 10px;
