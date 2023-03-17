@@ -4,6 +4,9 @@
     margin-right: 20px;
    
 }
+h1{
+    text-align: center;
+}
 /* sections */
 #s1{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -14,11 +17,11 @@
     text-align: justify;
     width: 50%;
     height: 300px;
-    text-align: center;
+    
     margin-right: 10px;
 }
 body{
-    text-align: center;
+   
     font-family: system-ui;
    border-left: solid 5px blue;
    border-right: solid 5px blue
@@ -32,7 +35,7 @@ body{
     text-align: justify;
     width: 50%;
     height: 300px;
-    text-align: center;
+   
     margin-left: 10px;
     }
     #s3{
@@ -44,7 +47,7 @@ body{
         text-align: justify;
         width: 50%;
         height: 300px;
-        text-align: center;
+      
         margin-right: 10px;
     }
     /*article*/
@@ -63,7 +66,7 @@ body{
         text-align: justify;
         width: 50%;
         height: 300px;
-        text-align: center;
+      
         margin-left: 10px;
     }
     #s5{
@@ -75,7 +78,7 @@ body{
         text-align: justify;
         width: 50%;
         height: 300px;
-        text-align: center;
+    
         margin-right: 10px;
     }
     #a3{
@@ -94,6 +97,6 @@ body{
         text-align: justify;
         width: 50%;
         height: 300px;
-        text-align: center;
+      
        margin-left: 10px;
     }
