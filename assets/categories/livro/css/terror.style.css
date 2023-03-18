@@ -20,7 +20,7 @@ h1{
     width: 30%;
     height: 300px;
     background-color: white;
-   
+    border-left: solid 4px cadetblue;
     padding: 10px;
 }
 /*corpo*/
@@ -40,7 +40,7 @@ main{
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    
+    border-left: solid 4px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
@@ -54,7 +54,7 @@ main{
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-       
+        border-left: solid 4px cadetblue;
         text-align: justify;
         width: 30%;
         height: 300px;
@@ -70,7 +70,7 @@ main{
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-        
+        border-left: solid 4px cadetblue;
         text-align: justify;
         width: 30%;
         height: 300px;
@@ -84,7 +84,7 @@ main{
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-        
+        border-left: solid 4px cadetblue;
         text-align: justify;
         width: 30%;
         height: 300px;
@@ -105,7 +105,7 @@ main{
         -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
         border-radius: 5px;
-       
+       border-left: solid 4px cadetblue;
         text-align: justify;
         width: 30%;
         height: 300px;
