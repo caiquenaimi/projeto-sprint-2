@@ -1,8 +1,11 @@
 body {
     text-align: center;
     font-family: system-ui;
-    border-left: solid 5px green;
-    border-right: solid 5px green;
+    background-color: rgb(0, 180, 246);
+    padding: 10px;
+}
+main{
+    background-color: white;
     padding: 10px;
 }
 
@@ -24,11 +27,12 @@ body {
     -moz-box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     border-radius: 5px;
-    border-left: solid 5px green;
+    border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
     padding: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
 }
@@ -38,7 +42,7 @@ body {
     -moz-box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     border-radius: 5px;
-    border-left: solid 5px green;
+    border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
@@ -52,7 +56,7 @@ body {
     -moz-box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     border-radius: 5px;
-    border-left: solid 5px green;
+    border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
@@ -66,11 +70,12 @@ body {
     -moz-box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     border-radius: 5px;
-    border-left: solid 5px green;
+    border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
     padding: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
 }
@@ -80,7 +85,7 @@ body {
     -moz-box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     border-radius: 5px;
-    border-left: solid 5px green;
+    border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
@@ -94,11 +99,12 @@ body {
     -moz-box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     box-shadow: 3px 0px 18px -2px rgba(0, 0, 0, 0.65);
     border-radius: 5px;
-    border-left: solid 5px green;
+    border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
     height: 300px;
     padding: 10px;
+    ;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
 }

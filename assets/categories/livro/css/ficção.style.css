@@ -3,8 +3,14 @@ body{
     font-family: system-ui;
   
    
-   background-image: linear-gradient(45deg, violet, white);
+  background-color: rgb(0, 180, 246);
 }
+/*main*/
+main{
+    background-color: white;
+    padding: 20px;
+}
+/*article*/
 #a1{
     display: flex;
     margin-left: 20px;
@@ -16,12 +22,12 @@ body{
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    border-left: solid 5px rgb(172, 18, 172);
+    border-left: solid 5px cadetblue;
     text-align: justify;
-    width: 50%;
+    width: 30%;
     height: 300px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 600px;
 padding: 10px;
 }
 #s2{
@@ -29,9 +35,9 @@ padding: 10px;
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    border-left: solid 5px rgb(172, 18, 172);
+    border-left: solid 5px cadetblue;
     text-align: justify;
-    width: 50%;
+    width: 30%;
     height: 300px;
     margin-right: 10px;
     background-color: white;
@@ -50,11 +56,11 @@ padding: 10px;
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    border-left: solid 5px rgb(172, 18, 172);
+    border-left: solid 5px cadetblue;
     text-align: justify;
-    width: 50%;
+    width: 30%;
     height: 300px;
-    margin-right: 10px;
+    margin-right: 600px;
     background-color: white;
     padding: 10px;
 
@@ -65,9 +71,9 @@ padding: 10px;
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     border-radius: 5px;
-    border-left: solid 5px rgb(172, 18, 172);
+    border-left: solid 5px cadetblue;
     text-align: justify;
-    width: 50%;
+    width: 30%;
     height: 300px;
     margin-right: 10px;
     background-color: white;
