@@ -25,7 +25,7 @@ header {
 }
 
 body {
-    background-color: #282d32;
+    background-color: transparent;
 }
 
 /* ajustes da ul para deixar os links um do lado do outro */
@@ -80,8 +80,9 @@ nav ul li:hover .sub-menu1 {
 nav ul li:hover .sub-menu1 ul {
     display: block;
     position: absolute;
-
-
+    padding: 10px;
+    background-color: #282d32;
+    border-radius: 5px;
 }
 
 nav ul li:hover .sub-menu1 ul li {
@@ -97,7 +98,6 @@ nav ul li:hover .sub-menu1 ul li:hover {
 
 .sub-menu2{
     display: none;
-    background-color: aqua;
 }
 
 .hover-sub:hover .sub-menu2{
@@ -126,7 +126,9 @@ nav ul li:hover .sub-sobre{
 nav ul li:hover .sub-sobre ul {
     display: block;
     position: absolute;
-   
+    padding: 10px;
+    background-color: #282d32;
+    border-radius: 5px;
 }
 
 nav ul li:hover .sub-sobre ul li {
