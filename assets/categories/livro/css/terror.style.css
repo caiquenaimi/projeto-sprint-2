@@ -114,6 +114,9 @@ main{
        margin-left: 20px;
        padding: 10px;
     }
+    .tt2{
+        text-align: center;
+    }
     /*estilização carrossel*/
     .slider{
         overflow: hidden;
@@ -122,7 +125,17 @@ main{
         text-align: center;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
+        color: rgb(14, 14, 104);
+       
     }
+    .slider-item{
+        background-color: rgb(132, 189, 220);
+        border-radius: 5px;
+        margin-bottom: 60px;
+      
+    }
+   
+  
     .slider > .slider-content{
         display: flex;
         flex-wrap: nowrap;
