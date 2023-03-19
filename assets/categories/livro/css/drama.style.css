@@ -1,14 +1,18 @@
+/*corpo*/
 body{
     font-family: system-ui;
     background-color: rgb(0, 180, 246);
+    text-align: center;
 }
 main{
     background-color: white;
     padding: 20px;
 }
+/*article*/
 #a1{
     display: flex;
 }
+/*sections*/
 #s1{
     -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
     -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
@@ -47,4 +51,49 @@ main{
     background-color: white;
     margin-left: 20px;
     padding: 10px;
+}
+
+.tt2{
+    text-align: center;
+}
+ /*estilização carrossel*/
+ .slider{
+    overflow: hidden;
+}
+.slider-content{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(14, 14, 104);
+   
+}
+.slider-item{
+    background-color: rgb(132, 189, 220);
+    border-radius: 5px;
+    margin-bottom: 60px;
+  
+}
+
+
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+}
+.slider > .slider-content > .slider-item{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
 }
