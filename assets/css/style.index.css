@@ -125,6 +125,11 @@ input {
 
 /* estilizacao dos livros e filmes recomendados  */
 
+.card {
+    background-color: #fff;
+}
+
+
 h2 {
     margin: 10px;
 }
