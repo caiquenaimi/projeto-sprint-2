@@ -250,3 +250,23 @@ main {
     top: 0;
     bottom: 0;
 }
+.vjmais{
+    color: rgb(199, 195, 195);
+    
+    padding: 10%;
+    margin-top: 160%px;
+    font-size: 20px;
+}
+.vjmais:hover{
+    color: rgb(48, 48, 255);
+   
+}
+.avj{
+    text-decoration: none;
+}
+ .avj:hover {
+    text-decoration: underline;
+    color: blue;
+
+
+ }
