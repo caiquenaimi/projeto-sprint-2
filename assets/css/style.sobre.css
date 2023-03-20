@@ -1,0 +1,107 @@
+.container{
+    text-align: justify;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+-moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+border-left: solid 5px blue;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: system-ui;
+    border-left: solid 5px blue;
+    min-height: 100vh;
+    
+}
+
+.container2{
+  
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+   
+    
+}
+#a0{
+    padding: 10px;
+}
+#a1{
+    display: flex;
+}
+
+#s1{
+    background-color:white;
+    width: 30%;
+    height: 400px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+  border-left: solid 5px blue;
+ 
+}
+
+
+
+#s2{
+    background-color:white;
+    width: 33%;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    border-left: solid 5px blue;
+}
+#s3{
+    background-color: white;
+    width: 33%;
+    height: 400px;
+   margin-left: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+    border-left: solid 5px blue;
+}
+.container3{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#a2{
+    display: flex;
+    margin-top: 30px;
+}
+a{
+    background-color:white;
+    width: 33%;
+    height: 400px;
+    margin-left: 170px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+-moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+border-left: solid 5px blue; 
+text-decoration: none;  
+}
+
+
+#s5  {
+background-color:white;
+    width: 33%;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+-moz-box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+box-shadow: 1px 2px 21px 1px rgba(0,0,0,0.73);
+border-left: solid 5px blue;
+}
