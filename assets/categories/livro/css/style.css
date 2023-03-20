@@ -1,9 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     text-align: center;
     font-family: system-ui;
-    background-color: rgb(0, 180, 246);
+/*     background-color: rgb(0, 180, 246); */
 
 
+}
+
+/* gambiarra para o header ficar sem bug */
+
+.header-upper {
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 
+
+.main2 {
+    margin-top: 185px;
+    margin-bottom: 20px;
 }
 
 /*main*/
@@ -117,6 +146,8 @@ a:hover {
     padding: 8px 25px;
     color: #fff !important;
     width: auto;
+    position: relative;
+    top: 70px;
     
     text-align: center;
     text-decoration: none;
@@ -124,10 +155,11 @@ a:hover {
     font-weight: 400;
     text-transform: uppercase;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
+    opacity: 1;
 }
 
 .linkblock .titulo1:hover {
-
+opacity: 0;
     background: white;
     color: rgb(15, 121, 177) !important;
 }
@@ -151,7 +183,7 @@ a:hover {
 
 .linkblock .sub1 {
     position: absolute;
-    top: 200px;
+    top: 250px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: #f0f0f0;
     z-index: 100;
@@ -164,7 +196,7 @@ a:hover {
 }
 .linkblock .sub2{
     position: absolute;
-    top: 270px;
+    top: 350px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: #f0f0f0;
     z-index: 100;
@@ -180,7 +212,7 @@ a:hover {
 }
 .linkblock .sub3{
     position: absolute;
-    top: 240px;
+    top: 220px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: #f0f0f0;
     z-index: 100;
@@ -195,6 +227,22 @@ a:hover {
     opacity: 0;
 }
 .linkblock:hover .sub1 {
+    top: -20px;
+    opacity: 0;
+}
+.linkblock .sub4{
+    position: absolute;
+    top: 270px;
+    transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
+    background-color: #f0f0f0;
+    z-index: 100;
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+    padding: 0 10px;
+    opacity: 1;
+}
+.linkblock:hover .sub4{
     top: -20px;
     opacity: 0;
 }
@@ -242,6 +290,7 @@ a:hover {
 }
 
 
+
 /* .webinar-content-box p {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;} */
 
 
@@ -286,4 +335,8 @@ a:hover {
     width: 100%;
     top: 0;
     bottom: 0;
+}
+
+footer iframe {
+    margin-bottom: -5px;
 }
