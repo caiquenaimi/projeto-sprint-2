@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* titulo da noticia  */
+
+.heading {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.heading h1 {
+    font-size: 35px;
+}
+
+.heading p {
+    font-size: 22px;
+}
+
+.heading span sub {
+    font-weight: bold;
+    font-style: italic;
+    color: #888;
+}
+
+article img {
+    margin-top: 10px;
+    height: 600px;
+    object-fit: cover;
+}
+
+article #legendaImagem {
+    margin-top: -5px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.container {
+    display: flex;
+}
+
+.container main {
+    width: 70%;
+}
+
+.container main article {
+    margin: 20px auto 0 auto;
+    max-width: 900px;
+}
+
+.container main article p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+.container aside {
+    width: 30%;
+    border-left: 3px solid #000;
+}
+
+.container aside hr {
+    margin: 20px;
+}
+
+.container aside #maisLidos {
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.container aside .card-2 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.container aside .card-2 .legend {
+    display: block;
+}
+
+.container aside .card-2 .legend p {
+    text-align: justify;
+}
+
+.container aside .card-2 img {
+    margin: 0px 10px;
+}
+.imagem1{
+   width: 100%;
+   height: 400px;
+}
+.h1artigos{
+    padding: 10px;
+}
+p{
+    line-height: 22px;
+}
