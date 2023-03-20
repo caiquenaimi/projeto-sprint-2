@@ -18,6 +18,41 @@ article{
 h2{
     text-align: justify;
 }
+/*div*/
 .container{
    margin-top: 20px;
+}
+/*article*/
+#a2{
+    display: flex;
+    gap: 50px;
+    background-color: black; 
+    padding: 20px;
+    
+}
+/*sections*/
+#s1{
+    width: 40%;
+    background-color: rgb(131, 13, 13);
+    margin-left: 6%;
+    padding: 10px;
+}
+#s2{
+    width: 40%;
+    background-color: rgb(131, 13, 13);
+    padding: 10px;
+}
+/*imagens*/
+img:hover{
+   transform: scale(1.1) ;
+   transition: all 0.5s;
+   box-shadow: -4px -1px 46px -7px rgba(255,242,242,0.75);
+-webkit-box-shadow: -4px -1px 46px -7px rgba(255,242,242,0.75);
+-moz-box-shadow: -4px -1px 46px -7px rgba(255,242,242,0.75);}
+/*titulos*/
+h2{
+    margin-top: 1%;
+}
+h1{
+    margin-bottom: 1%;
 }
