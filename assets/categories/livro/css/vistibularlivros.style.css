@@ -30,7 +30,7 @@ main{
     border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
-    height: 200%;
+   
     padding: 10px;
     margin-left: 20px;
     margin-right: 10px;
@@ -45,7 +45,7 @@ main{
     border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
-    height: 200%;
+  
     padding: 10px;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
@@ -59,7 +59,7 @@ main{
     border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
-    height: 200%;
+   
     padding: 10px;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
@@ -73,7 +73,7 @@ main{
     border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
-    height: 200%;
+ 
     padding: 10px;
     margin-left: 20px;
     margin-right: 10px;
@@ -88,7 +88,7 @@ main{
     border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
-    height: 200%;
+  
     padding: 10px;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
@@ -102,11 +102,14 @@ main{
     border-left: solid 5px cadetblue;
     text-align: justify;
     width: 30%;
-    height: 200%;
+   
     padding: 10px;
     margin-right: 10px;
     background-color: rgb(228, 223, 223);
 }
 img{
-    
+    margin-left: 30%;
+}
+section{
+    height: 200%;
 }
