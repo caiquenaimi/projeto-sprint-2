@@ -1,9 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+   border: box;
+}
 body{
     text-align: center;
     background-color: black;
     color: white;
+    padding: 20px;
 }
 article{
     background-color: rgb(131, 13, 13);
     border-radius: 6px;
+    text-align: justify;
+    padding: 20px;
+}
+h2{
+    text-align: justify;
+}
+.container{
+   margin-top: 20px;
 }
