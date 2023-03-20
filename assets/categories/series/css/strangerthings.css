@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+article{
+    background-color: rgb(131, 13, 13);
+    border-radius: 6px;
+}
