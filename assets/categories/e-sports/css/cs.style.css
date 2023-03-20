@@ -7,69 +7,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* avaliacao sobre a matéria */
-
-.avaliacaoMateria {
-    background-color: #f5f5f5;
-    padding: 20px;
-}
-
-.avaliacaoMateria article section {
-    display: flex;
-    align-items: baseline;
-}
-
-.avaliacaoMateria article section label {
-    margin-left: auto;
-    cursor: pointer;
-}
-
-.avaliacaoMateria article section label:hover {
-    color: #383838;
-}
-
-.avaliacaoMateria article section label:active {
-    color: #3c4ffa;
-}
-
-.avaliacaoMateria article .notas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.avaliacaoMateria article .notas .media {
-    display: flex;
-    gap: 10px;
-}
-
-input:checked+.avaliacaoMateria article .depoiments {
-    display: block;
-}
-
-input:checked+.avaliacaoMateria article section #menos {
-    display: block;
-}
-
-input:checked+.avaliacaoMateria article section #mais {
-    display: none;
-}
-
-#menos {
-    display: none;
-}
-
-#veja {
-    display: none;
-}
-
-/* estilizacao dos depoimentos sobre a matéria */
-
 .depoiments {
     background-color: #f5f5f5;
     padding: 20px;
-    display: none;
+    justify-content: baseline;
 }
 
 
@@ -94,6 +35,7 @@ p {
     display: flex;
     max-width: 980px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .cards .card {
@@ -116,6 +58,19 @@ p {
     margin-top: 15px;
     text-align: center;
     font-size: 18px;
+}
+
+#span1 {
+    font-size: 15px;
+    display: flex;
+}
+
+.heart {
+    display: flex;
+}
+
+img {
+    margin: 10%;
 }
 
 .card .user {
