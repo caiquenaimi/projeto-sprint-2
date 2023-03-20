@@ -1,38 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,400&display=swap');
+/* padronização site */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
 }
+/* estilização fonte do body */
 body{
     line-height: 1.5;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* estilização parágrafo */
 p {
     color: #bbb;
     justify-content: center;
 }
+/* estilização div pai */
 .container{
     max-width: 1170px;
     margin: auto;
 }
+
+/* estilização div filha */
 .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-
+/* estilização footer */
 .footer{
     background-color: #282d32;
     padding: 70px 0;
 }
+/* estilização menu footer */
 .footer-col{
     width: 25%;
     padding: 0 15px;
 }
+/* h4 do footer */
 .footer-col h4{
     font-size: 18px;
     color: #fff;
@@ -50,9 +57,12 @@ p {
     height: 2px;
     width: 50px;
 }
+
+/* linha abaixo dos itens */
 .fotter-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
@@ -79,12 +89,13 @@ p {
     border-radius: 50%;
     color: #fff;
 }
+/* estilização dos links do follow us */
 .footer-col .social-links a:hover{
     color: #24262b;
     background-color: #fff;
 }
 
-/* responsive */
+/* responsividade */
 @media(max-width:767px){
     .footer-col{
         width: 50%;
