@@ -12,8 +12,28 @@ body {
     background-size: cover;
 }
 
-#iframe-header {
+/* gambiarra para o header ficar sem bug */
+
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
     width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 
+
+.form-container {
+    margin-top: 170px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -190,4 +210,8 @@ form p {
 
 .mostrar .modal {
     animation: animate-modal .3s;
+}
+
+footer iframe {
+    margin-bottom: -5px;
 }
