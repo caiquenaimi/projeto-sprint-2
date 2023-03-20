@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(45deg, #3C4FFA,#509BFA);
+    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ form{
 
 form h1{
     text-align: center;
-    color: rgb(114, 162, 250);
+    color: #000;
     font-size: 30px;
 }
 
@@ -107,9 +107,9 @@ form p {
     padding: 15px 40px;
     display: inline;
     width: 100%;
-    background-image: linear-gradient(45deg,#3C4FFA, #509BFA );
+    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
     border-radius: 20px;
-    color: #fff;
+    color: #000;
     font-size: 15px;
     cursor: pointer;
     transition: background-color 0.5s;
