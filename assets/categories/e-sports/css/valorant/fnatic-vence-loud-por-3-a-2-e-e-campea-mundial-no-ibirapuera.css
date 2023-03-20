@@ -21,6 +21,15 @@ body {
 
 .avaliacaoMateria article section label {
     margin-left: auto;
+    cursor: pointer;
+}
+
+.avaliacaoMateria article section label:hover {
+    color: #383838;
+}
+
+.avaliacaoMateria article section label:active {
+    color: #3c4ffa;
 }
 
 .avaliacaoMateria article .notas {
