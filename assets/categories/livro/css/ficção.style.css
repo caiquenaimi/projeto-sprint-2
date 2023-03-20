@@ -103,7 +103,9 @@ padding: 10px;
   
 }
 
-
+input{
+    cursor: pointer;
+}
 .slider > .slider-content{
     display: flex;
     flex-wrap: nowrap;

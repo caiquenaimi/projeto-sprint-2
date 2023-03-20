@@ -73,7 +73,9 @@ main{
     margin-bottom: 60px;
   
 }
-
+input{
+    cursor: pointer;
+}
 
 .slider > .slider-content{
     display: flex;
