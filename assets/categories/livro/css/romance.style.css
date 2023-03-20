@@ -116,6 +116,9 @@ main{
     color: rgb(14, 14, 104);
    
 }
+input{
+    cursor: pointer;
+}
 .slider-item{
     background-color: rgb(132, 189, 220);
     border-radius: 5px;
