@@ -5,8 +5,8 @@
 }
 body{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 20px;
 }
 article{
@@ -14,6 +14,7 @@ article{
     border-radius: 6px;
     text-align: justify;
     padding: 20px;
+    color: white;
 }
 h2{
     text-align: justify;
@@ -26,7 +27,7 @@ h2{
 #a2{
     display: flex;
     gap: 50px;
-    background-color: black; 
+    background-color: white; 
     padding: 20px;
     
 }
@@ -36,19 +37,21 @@ h2{
     background-color: rgb(131, 13, 13);
     margin-left: 6%;
     padding: 10px;
+    border-radius: 6px;
 }
 #s2{
     width: 40%;
     background-color: rgb(131, 13, 13);
     padding: 10px;
+    border-radius: 6px;
 }
 /*imagens*/
 img:hover{
    transform: scale(1.1) ;
    transition: all 0.5s;
-   box-shadow: -4px -1px 46px -7px rgba(255,242,242,0.75);
--webkit-box-shadow: -4px -1px 46px -7px rgba(255,242,242,0.75);
--moz-box-shadow: -4px -1px 46px -7px rgba(255,242,242,0.75);}
+   box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+-webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+-moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);}
 /*titulos*/
 h2{
     margin-top: 1%;
