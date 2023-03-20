@@ -69,6 +69,7 @@ article #legendaImagem {
 
 .container aside hr {
     margin: 20px;
+    
 }
 
 .container aside #maisLidos {
@@ -104,4 +105,12 @@ article #legendaImagem {
 }
 p{
     line-height: 22px;
+}
+.divaside{
+border-bottom: 2px solid rgb(9, 21, 188);
+padding-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+width: 90%;
+
 }
