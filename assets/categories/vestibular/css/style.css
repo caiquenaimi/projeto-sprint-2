@@ -56,8 +56,8 @@ main {
 .h1noticias {
     border-bottom: 2px solid rgb(9, 21, 188);
     padding-top: 10px;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .h1vesti {
@@ -133,10 +133,11 @@ main {
     width: auto;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
+    
 }
 
 .link-block .dundas-blue-link:hover {
@@ -166,7 +167,7 @@ main {
     font-weight: 100;
     color: rgba(40, 150, 211, .9);
     font-size: 22px;
-    padding: 0 10px;
+    padding: 0 100px;
     opacity: 1;
 }
 
