@@ -84,7 +84,7 @@ main{
 
 .linkblock .sub1 {
     position: absolute;
-    top: 250px;
+    top: 290px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: #f0f0f0;
     z-index: 100;
@@ -97,7 +97,7 @@ main{
 }
 .linkblock .sub2{
     position: absolute;
-    top: 290px;
+    top: 300px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: #f0f0f0;
     z-index: 100;
