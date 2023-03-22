@@ -4,14 +4,37 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
+    margin-top: 250px;
+    margin-bottom: 50px;
 }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
+    overflow-x: hidden;
+}
+
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+.header-upper iframe:hover {
+    height: 500px;
+}
+
 
 .swiper {
     width: 100%;
@@ -40,7 +63,7 @@ body {
     margin: 0 2em;
 }
 
-.swiper-slide:not(.swiper-slide-active){
+.swiper-slide:not(.swiper-slide-active) {
     filter: blur(1px);
 }
 
@@ -77,13 +100,13 @@ body {
 
 
 .card_name {
-    color:#5361dd ;
+    color: #5361dd;
 }
 
-.card_text{
+.card_text {
     text-align: center;
     font-size: 1.1rem;
-    margin:  1em 0;
+    margin: 1em 0;
 
 }
 
@@ -98,4 +121,8 @@ body {
     border-radius: .5em;
     margin-top: .5em;
     cursor: pointer;
+}
+
+iframe {
+    margin-bottom: -5px;
 }
