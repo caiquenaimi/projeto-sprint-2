@@ -1,22 +1,45 @@
-*{
-    margin:0;
-    padding:0;
-   border: box;
+* {
+    margin: 0;
+    padding: 0;
+    border: box;
 }
-body{
-    background-color:rgb(0, 180, 245);
+
+body {
+    background-color: rgb(0, 180, 245);
     font-family: system-ui;
     text-align: center;
 }
-main{
+
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+.header-upper iframe:hover {
+    height: 500px;
+}
+
+main {
     background-color: white;
     padding: 20px;
+    margin-top: 170px;
+    margin-bottom: 20px;
 }
-#a1{
+
+#a1 {
     display: flex;
 }
+
 /* card diferenciado*/
-.container{
+.container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -50,7 +73,7 @@ main{
     padding: 8px 25px;
     color: #fff !important;
     width: auto;
-    
+
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -93,9 +116,10 @@ main{
     font-size: 15px;
     padding: 0 10px;
     opacity: 1;
-    
+
 }
-.linkblock .sub2{
+
+.linkblock .sub2 {
     position: absolute;
     top: 300px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
@@ -107,11 +131,13 @@ main{
     padding: 0 10px;
     opacity: 1;
 }
-.linkblock:hover .sub2{
+
+.linkblock:hover .sub2 {
     top: -20px;
     opacity: 0;
 }
-.linkblock .sub3{
+
+.linkblock .sub3 {
     position: absolute;
     top: 240px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
@@ -123,10 +149,12 @@ main{
     padding: 0 10px;
     opacity: 1;
 }
-.linkblock:hover .sub3{
+
+.linkblock:hover .sub3 {
     top: -20px;
     opacity: 0;
 }
+
 .linkblock:hover .sub1 {
     top: -20px;
     opacity: 0;
@@ -163,6 +191,7 @@ main{
     height: auto;
     border-radius: 5px 5px 0 0;
 }
+
 #s2 .img1 {
     width: 100%;
     height: auto;
@@ -207,3 +236,6 @@ main{
     }
 }
 
+footer iframe {
+    margin-bottom: -5px;
+}
