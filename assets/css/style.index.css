@@ -151,6 +151,7 @@ input {
 
 .card {
     background-color: #fff;
+    width: calc(100 / 4);
 }
 
 
