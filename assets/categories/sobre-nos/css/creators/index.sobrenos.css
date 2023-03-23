@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
+    overflow-x: hidden;
+}
+
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+.header-upper iframe:hover {
+    height: 500px;
+}
+
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    /* width: calc( 100% 5); */
+    width: 30%;
+    height: 95%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+
+    margin: 0 2em;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+    filter: blur(1px);
+}
+
+
+.card_image {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid #5361dd;
+    padding: 3px;
+    margin-bottom: 2em;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_title {
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+
+}
+
+
+.card_name {
+    color: #5361dd;
+}
+
+.card_text {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em 0;
+
+}
+
+.card_btn {
+    background-color: #5361dd;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+}
+
+iframe {
+    margin-bottom: -5px;
+}
