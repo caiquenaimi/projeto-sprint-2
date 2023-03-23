@@ -49,8 +49,9 @@ body {
 }
 
 .card {
-    width: 20em;
-    height: auto;
+    /* width: calc( 100% 5); */
+    width: 30%;
+    height: 95%;
     background-color: #fff;
     border-radius: 2em;
     box-shadow: 0 0 2em rgba(0, 0, 0, .2);
@@ -59,6 +60,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: justify;
 
     margin: 0 2em;
 }
