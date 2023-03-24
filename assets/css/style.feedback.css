@@ -192,6 +192,12 @@ form p {
     margin-bottom: 20px;
 }
 
+.modal p {
+    text-align: center;
+    margin: 25px;
+    justify-content: center;
+}
+
 @keyframes animate-modal {
     from {
         opacity: 0;

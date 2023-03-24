@@ -192,6 +192,12 @@ form .input-single .input:valid~label {
     margin-bottom: 20px;
 }
 
+.modal p {
+    text-align: center;
+    margin: 25px;
+    justify-content: center;
+}
+
 /* animação janela modal */
 @keyframes animate-modal {
     from {
