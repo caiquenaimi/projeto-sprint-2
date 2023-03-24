@@ -1,13 +1,46 @@
 * {
   margin: 0;
   padding: 0;
-  border: box;
+  /* box-sizing: border-box; */
 }
 
 body {
   font-family: system-ui;
+  
+}
+
+.header-upper {
+  z-index: 5;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+}
+
+.header-upper iframe {
+  height: 180px;
+}
+
+.header-upper iframe:hover {
+  height: 500px;
+}
+
+main {
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+
+#h1name {
   text-align: center;
   padding: 20px;
+}
+.a3 img {
+  padding: 20px;
+}
+
+.elenco {
+  text-align: center;
 }
 
 #s1 {
@@ -191,4 +224,8 @@ input:checked+.avaliacaoMateria article section #mais {
   display: flex;
   justify-content: center;
   gap: 2px;
+}
+
+footer iframe {
+  margin-bottom: -5px;
 }

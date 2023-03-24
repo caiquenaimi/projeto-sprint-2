@@ -289,53 +289,6 @@ opacity: 0;
 }
 
 
-
-/* .webinar-content-box p {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;} */
-
-
-/* TABLET PORTRAIT */
-
-@media only screen and (min-width: 569px) and (max-width: 880px) {
-    .linkblock {
-        position: relative;
-        width: 45%;
-        max-width: 330px;
-    }
-
-    .linkblock .titulo1 {
-        font-size: 22px;
-    }
-}
-
-
-/* MOBILE LANDSCAPE */
-
-@media only screen and (min-width: 0) and (max-width: 568px) {
-    .linkblock {
-        position: relative;
-        width: 90%;
-        max-width: 300px;
-    }
-
-    .linkblock .titulo1 {
-        font-size: 18px;
-    }
-}
-
-.videoWrapper {
-    height: auto;
-    width: 723px;
-    position: relative;
-    overflow: hidden;
-}
-
-.videoWrapper iframe {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-}
-
 footer iframe {
     margin-bottom: -5px;
 }
