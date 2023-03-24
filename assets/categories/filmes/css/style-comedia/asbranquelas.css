@@ -20,6 +20,12 @@ body {
 .pimagem {
     text-align:center
 }
+.linha{
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
 
 a:hover{
 transform: scale(1.1) ;
@@ -34,7 +40,9 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     padding: 20px;
     width: 40%;
 }
-
+li{
+    padding: 10px;
+}
 .h21 {
     text-align: justify;
     padding: 20px;
