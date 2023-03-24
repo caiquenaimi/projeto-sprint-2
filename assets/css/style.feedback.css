@@ -36,6 +36,8 @@ body {
     margin-bottom: 20px;
 }
 
+/* estilização div pai para alinhar o contéudo */
+
 .container {
     width: 100%;
     height: 100vh;
@@ -47,6 +49,8 @@ body {
     padding: 0 4%;
 }
 
+/* estilização do formulário */
+
 form {
     background-color: #fff;
     max-width: 500px;
@@ -55,16 +59,22 @@ form {
     border-radius: 40px;
 }
 
+/* estilização h1 do formulário */
+
 form h1 {
     text-align: center;
     color: #000;
     font-size: 30px;
 }
 
+/* estilização dos inputs */
+
 .input-single {
     position: relative;
     margin: 30px 0px;
 }
+
+/* estilização dos labels dos inputs */
 
 .input-single label {
     position: absolute;
@@ -74,6 +84,8 @@ form h1 {
     cursor: text;
 }
 
+/* estilização dos labels dos inputs */
+
 .input {
     width: 100%;
     border: 0px;
@@ -82,6 +94,8 @@ form h1 {
     font-size: 17px;
     outline: none;
 }
+
+/* animação das labels do formulário */
 
 form .input-single .input:focus~label,
 form .input-single .input:valid~label {
@@ -105,26 +119,34 @@ form input[type=submit] {
     cursor: pointer;
 }
 
+/* estilização parágrafo do formulário */
+
 form p {
     text-align: center;
     margin: 20px 0px;
 }
 
+/* estilização imagens */
 
 .img {
     width: 112px;
     margin-top: 40px;
 }
 
+/* estilização parágrafos */
 
 .p {
     text-align: center;
     font-size: 30px;
 }
 
+/* centralização h1 da model */
+
 #h1 {
     text-align: center;
 }
+
+/* estilização botão de enviar */
 
 
 .btn {
@@ -144,9 +166,13 @@ form p {
     left: 35%;
 }
 
+/* hover botão */
+
 .btn:hover {
     background-color: #164a8f;
 }
+
+/* estilização div pai da janela modal */
 
 .modal-container {
     width: 100vw;
@@ -163,6 +189,8 @@ form p {
     backdrop-filter: blur(10px);
 }
 
+/* estilização janela modal */
+
 .modal {
     width: 326px;
     height: 408px;
@@ -172,6 +200,8 @@ form p {
     padding: 50px;
     border-radius: 25px;
 }
+
+/* estilização X para fechar a janela modal */
 
 .fechar {
     position: absolute;
@@ -188,6 +218,8 @@ form p {
     cursor: pointer;
 }
 
+/* alinhamento margin do h1 da janela modal */
+
 .modal h1 {
     margin-bottom: 20px;
 }
@@ -197,6 +229,8 @@ form p {
     margin: 25px;
     justify-content: center;
 }
+
+/* animação janela modal */
 
 @keyframes animate-modal {
     from {
@@ -210,6 +244,8 @@ form p {
     }
 }
 
+/* alinhamento janela modal */
+
 .modal-container.mostrar {
     display: flex;
 }
@@ -217,6 +253,8 @@ form p {
 .mostrar .modal {
     animation: animate-modal .3s;
 }
+
+/* animação abrir janela modal */
 
 footer iframe {
     margin-bottom: -5px;

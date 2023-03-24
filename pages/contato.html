@@ -3,55 +3,48 @@
 
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" href="../assets/images/logokami-semFundo.png" type="image/x-icon">
   <link rel="stylesheet" href="../assets/css/style.contato.css" />
-  <title>kami news: contato</title>
+  <title>Contato - KamiNews</title>
 </head>
 
 <body>
+  <!--  header -->
   <header class="header-upper">
     <iframe src="../layouts/header.html" scrolling="no" width="100%" frameborder="0"></iframe>
   </header>
-  <main>
-    <!-- criação do formulário de contato -->
-    <form action="">
-      <section class="form-container">
-        <div class="container">
-          <h1>Entre em contato</h1>
-          <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+  <!--   container do form -->
+  <section class="form-container">
+    <div class="container">
+      <!-- criação do formulário de contato -->
+      <form action="">
 
-          <!-- div para o input de nome -->
-          <div class="input-single">
-            <input type="text" id="nome-box" class="input" autocomplete="off" required />
-            <label for="nome-box">Seu nome completo </label>
-          </div>
+        <h1>Entre em contato</h1>
+        <p>Preencha o formulário abaixo e entraremos em contato com você</p>
 
-          <!-- div para o input de email -->
-          <div class="input-single">
-            <input type="email" id="email-box" class="input" autocomplete="off" required />
-            <label for="email-box">Seu E-mail </label>
-          </div>
-
-          <!-- div para input de mensagem -->
-          <div class="input-single">
-            <input type="text" id="nome-box" class="input" autocomplete="off" required />
-            <label for="nome-box">Seu telefone </label>
-
-            <!-- div para o botão de enviar -->
-          </div>
-          <div onclick="openModal()" class="btn">Enviar</div>
-
-          <!-- div para a janela modal de success -->
-        </div>
-        </div>
+        <!-- div para o input de nome -->
+        <div class="input-single">
+          <input type="text" id="nome-box" class="input" autocomplete="off" required />
+          <label for="nome-box">Seu nome completo </label>
         </div>
 
-        </div>
+        <!-- div para o input de email -->
+        <div class="input-single">
+          <input type="email" id="email-box" class="input" autocomplete="off" required />
+          <label for="email-box">Seu E-mail </label>
         </div>
 
-        <!-- impotação do código java script -->
-        <script src="main.js"></script>
-      </section>
+        <!-- div para input de mensagem -->
+        <div class="input-single">
+          <input type="text" id="nome-box" class="input" autocomplete="off" required />
+          <label for="nome-box">Seu telefone </label>
+
+          <!-- div para o botão de enviar -->
+        </div>
+        <div onclick="openModal()" class="btn">Enviar</div>
+    </div>
     </form>
+    <!-- div para a janela modal de success -->
     <div id="modal-container" class="modal-container">
       <div class="modal">
         <p id="p"><button class="fechar" id="fechar">X</button></p>
@@ -59,7 +52,13 @@
         <p class="p" id="pimg"><img class="img" src="../assets/images/checked.png" alt=""></p>
         <p>Seu formulário foi enviado com sucesso🎉</p>
       </div>
-  </main>
+    </div>
+  </section>
+
+
+  <!-- impotação do código java script -->
+  <script src="main.js"></script>
+
   <footer>
     <iframe src="../layouts/footer.html" scrolling="no" width="100%" height="340px" frameborder="0"></iframe>
   </footer>
