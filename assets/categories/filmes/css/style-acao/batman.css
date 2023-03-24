@@ -30,6 +30,12 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 -webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
 -moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
 }
+.linha{
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
 
 
 #s2 {
