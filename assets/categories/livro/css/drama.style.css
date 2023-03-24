@@ -256,3 +256,7 @@ input:checked+.avaliacaoMateria article section #mais {
   justify-content: center;
   gap: 2px;
 }
+
+footer iframe {
+  margin-bottom: -5px;
+}
