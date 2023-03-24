@@ -36,6 +36,8 @@ main {
 
 .slide img {
     border-radius: 5px;
+
+
 }
 
 .carrosel {
@@ -114,7 +116,7 @@ input {
 
 .carrosel .slide section {
     width: 50%;
-    margin: 10px;
+    margin: auto 10px;
 
 }
 
