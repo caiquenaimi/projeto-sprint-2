@@ -34,7 +34,9 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     padding: 20px;
     width: 40%;
 }
-
+li{
+    padding: 5px;
+}
 .h21 {
     text-align: justify;
     padding: 20px;
