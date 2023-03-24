@@ -8,7 +8,6 @@
 
 /* estilização da body como a cor de fundo e centralização */
 body {
-    background-image: linear-gradient(45deg, #ebf4f5, #b5c6e0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,11 +36,14 @@ body {
 
 .form-container {
     margin-top: 170px;
-    margin-bottom: 20px;
+/*     margin-bottom: 20px; */
+    background-color: #f5f5f5;
+
 }
 
 /* estilização div pai para alinhar o contéudo */
 .container {
+    
     width: 100%;
     height: 100vh;
     display: flex;
@@ -54,6 +56,8 @@ body {
 
 /* estilização do formulário */
 form {
+
+    border: 1px solid #e7e7e9;
     background-color: #fff;
     max-width: 500px;
     height: 450px;
@@ -129,7 +133,7 @@ form .input-single .input:valid~label {
     padding: 15px 40px;
     display: inline;
     width: 100%;
-    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
+    background-image: linear-gradient(45deg, #c1d8f6, #509bfa);
     border-radius: 20px;
     color: #000;
     font-size: 15px;
