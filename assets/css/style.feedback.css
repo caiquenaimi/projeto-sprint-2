@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
+    background-image: linear-gradient(45deg, #ebf4f5, #b5c6e0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,16 +20,16 @@ body {
     left: 0;
     position: absolute;
     width: 100%;
-    
+
 }
 
 .header-upper iframe {
     height: 180px;
 }
 
- .header-upper iframe:hover {
+.header-upper iframe:hover {
     height: 500px;
-} 
+}
 
 .form-container {
     margin-top: 170px;

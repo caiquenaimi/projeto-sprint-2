@@ -8,7 +8,7 @@
 
 /* estilização da body como a cor de fundo e centralização */
 body {
-    background-image: linear-gradient(45deg, #D2D0F2, #ABB2EE);
+    background-image: linear-gradient(45deg, #ebf4f5, #b5c6e0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +42,8 @@ main {
 
 }
 
+
+
 /* estilização div pai para alinhar o contéudo */
 .container {
     max-width: 1280px;
@@ -51,7 +53,7 @@ main {
 
 /* estilização do formulário */
 form {
-    background-color: #ffffff;
+    background-color: #fff;
     max-width: 500px;
     height: 450px;
     padding: 40px;
