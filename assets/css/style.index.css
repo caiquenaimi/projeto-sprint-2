@@ -5,7 +5,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    background-image: linear-gradient(45deg, #ebf4f5, #b5c6e0);
 }
 
 /* gambiarra para o header ficar sem bug */
@@ -60,7 +60,7 @@ main {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    border: 2px solid rgb(196, 196, 196);
+    border: 2px solid rgba(0, 0, 0, 0.557);
     margin: 6px;
     cursor: pointer;
     transition: 0.6s;
@@ -84,7 +84,7 @@ input {
 
 #slide1:checked~.navigation #l1{
     background-color: #509bfa;
-    border: 2px solid #fff;
+    border: 2px solid black;
 }
 
 
@@ -94,7 +94,7 @@ input {
 
 #slide2:checked~.navigation #l2{
     background-color: #509bfa;
-    border: 2px solid #fff;
+    border: 2px solid black;
 }
 
 #slide2:checked~.s1 {
@@ -103,7 +103,7 @@ input {
 
 #slide3:checked~.navigation #l3{
     background-color: #509bfa;
-    border: 2px solid #fff;
+    border: 2px solid black;
 }
 
 #slide3:checked~.s1 {
