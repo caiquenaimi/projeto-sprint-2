@@ -72,7 +72,7 @@ main {
     padding: 8px 25px;
     color: #fff !important;
     width: auto;
-
+   
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -106,20 +106,6 @@ main {
 
 .linkblock .sub1 {
     position: absolute;
-    top: 290px;
-    transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
-    background-color: #f0f0f0;
-    z-index: 100;
-    font-weight: 100;
-    color: black;
-    font-size: 15px;
-    padding: 0 10px;
-    opacity: 1;
-
-}
-
-.linkblock .sub2 {
-    position: absolute;
     top: 300px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: #f0f0f0;
@@ -129,30 +115,9 @@ main {
     font-size: 15px;
     padding: 0 10px;
     opacity: 1;
+    font-size: 20px;
 }
 
-.linkblock:hover .sub2 {
-    top: -20px;
-    opacity: 0;
-}
-
-.linkblock .sub3 {
-    position: absolute;
-    top: 240px;
-    transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
-    background-color: #f0f0f0;
-    z-index: 100;
-    font-weight: 100;
-    color: black;
-    font-size: 15px;
-    padding: 0 10px;
-    opacity: 1;
-}
-
-.linkblock:hover .sub3 {
-    top: -20px;
-    opacity: 0;
-}
 
 .linkblock:hover .sub1 {
     top: -20px;
@@ -203,37 +168,7 @@ main {
 }
 
 
-/* .webinar-content-box p {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;} */
 
-
-/* TABLET PORTRAIT */
-
-@media only screen and (min-width: 569px) and (max-width: 880px) {
-    .linkblock {
-        position: relative;
-        width: 45%;
-        max-width: 330px;
-    }
-
-    .linkblock .titulo1 {
-        font-size: 22px;
-    }
-}
-
-
-/* MOBILE LANDSCAPE */
-
-@media only screen and (min-width: 0) and (max-width: 568px) {
-    .linkblock {
-        position: relative;
-        width: 90%;
-        max-width: 300px;
-    }
-
-    .linkblock .titulo1 {
-        font-size: 18px;
-    }
-}
 
 footer iframe {
     margin-bottom: -5px;
