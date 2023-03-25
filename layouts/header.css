@@ -18,6 +18,10 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* cor de fundo e da fonte */
 header {
     background-color: #282d32;
@@ -51,6 +55,7 @@ li {
 nav {
     background-color: #282d32;
     text-align: center;
+    justify-content: space-between;
 }
 
 
@@ -62,6 +67,22 @@ nav ul li {
     width: 120px;
     margin: 15px;
     padding: 8px;
+}
+
+button {
+    border: none;
+    background:  rgb(75, 104, 182);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 .sub-menu1 {
@@ -170,3 +191,5 @@ nav ul li:hover .sub-sobre ul li {
     transition: 0.7s;
 }
 
+
+ 
