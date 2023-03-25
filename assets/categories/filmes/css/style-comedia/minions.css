@@ -66,6 +66,20 @@ h2 {
     text-align: justify;
     color: rgb(51, 51, 51);
 }
+.linha{
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
+
+  #img2:hover{
+    transform: scale(1.1) ;
+transition: all 0.5s;
+box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+-webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+-moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
+}
 
 #a3 {
     text-align: justify;

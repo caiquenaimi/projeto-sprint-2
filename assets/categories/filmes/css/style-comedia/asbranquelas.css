@@ -20,6 +20,12 @@ body {
 .pimagem {
     text-align:center
 }
+.linha{
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
 
 a:hover{
 transform: scale(1.1) ;
@@ -34,7 +40,9 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     padding: 20px;
     width: 40%;
 }
-
+li{
+    padding: 10px;
+}
 .h21 {
     text-align: justify;
     padding: 20px;
@@ -55,6 +63,14 @@ article {
     margin-left: 7%;
     margin-top: 5%;
 
+}
+/* hover das imagens do elenco */
+#img2:hover{
+    transform: scale(1.1) ;
+transition: all 0.5s;
+box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+-webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+-moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
 }
 
 /* /titulo/ */

@@ -4,13 +4,19 @@
   box-sizing: border-box;  
 
 }
-
+/* configuracoes padroes */
 body {
-  background-color: rgb(0, 180, 246);
+  background-color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 20px;
   margin-bottom: 20px;
 
+}
+/* linha */
+.linha{
+  border: solid 1px black;
+  text-align: center;
+  
 }
 
 main{
@@ -19,9 +25,9 @@ main{
   height: 100%;
 }
 
-
+/* configuracoes dos cards */
 .webinar-grid {
-  width: 190%;
+  width: 180%;
   max-width: 1170px;
   margin: 0 auto;
   display: flex   ;
@@ -59,7 +65,7 @@ main{
   font-weight: 500;
   text-transform: uppercase;
   transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
-  margin-top: 90%;
+ 
 }
 
 .link-block .dundas-blue-link:hover {
@@ -115,7 +121,7 @@ main{
 .webinar-content-box p {
   /* texto */
   padding: 30px 8px 70px 0;
-  color: #6a6a6a;
+  color: #f0f0f0;
 }
 
 .webinar-content-box a {
@@ -141,4 +147,6 @@ main{
 
 .imagemromance{
   border-radius: 2%;
+  height: 200px;
+  width: 100%;
 }
