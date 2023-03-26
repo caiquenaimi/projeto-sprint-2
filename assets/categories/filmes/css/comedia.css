@@ -19,7 +19,7 @@ main {
     height: 100%;
 }
 .linha{
-    border: solid 1px black;
+    border: solid 1px #2155a8;
     text-align: center;
     margin-top: 10px;
     
@@ -115,6 +115,9 @@ main {
 
 .imagemromance {
     width: 100%;
+    border-bottom: 6px solid #2155a8;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     height: 200px;
 }
 

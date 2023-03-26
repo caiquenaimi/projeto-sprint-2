@@ -9,6 +9,13 @@ body {
     text-align: center;
 
 }
+/* titulo */
+.linha{
+    border: solid 1px #2155a8;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
 
 /* /sections/ */
 #s1 {
