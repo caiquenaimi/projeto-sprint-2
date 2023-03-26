@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../../../assets/categories/music/style.css" rel="stylesheet">
+    <!-- icones -->
+    <script src="https://kit.fontawesome.com/362ce73ddb.js" crossorigin="anonymous"></script>
+    <title>Musica - KamiNews</title>
+</head>
+
+<body>
+    <header class="header-upper">
+        <iframe src="../../../layouts/header.html" scrolling="no" width="100%" frameborder="0"></iframe>
+    </header>
+    <main>
+
+        <h1>Kami Player</h1>
+        <div class="music-container" id="music-container">
+
+            <div class="music-info">
+                <h2 id="title" class="title"></h2>
+                <div class="progress-container" id="progress-container">
+
+                    <div class="progress" id="progress"></div>
+
+                </div>
+            </div>
+            <audio src="./ryu.mp3" id="audio"></audio>
+            <div class="img-container">
+                <img src="../../../assets/categories/music/images/Clickbait - Veigh.jpg" alt="music-cover" id="cover" />
+
+            </div>
+
+            <div class="navigation">
+
+                <button id="prev" class="action-btn">
+
+                    <i class="fas fa-backward"></i>
+
+                </button>
+
+                <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+                <script src="../../../assets/categories/music/main.js"></script>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <iframe src="../../../../layouts/footer.html" scrolling="no" width="100%" height="340px"
+            frameborder="0"></iframe>
+    </footer>
+</body>
+
+</html>

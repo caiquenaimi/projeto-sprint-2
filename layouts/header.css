@@ -71,7 +71,7 @@ nav ul li {
 
 button {
     border: none;
-    background:  rgb(75, 104, 182);
+    background-image: linear-gradient(45deg, #c1d8f6, #509bfa);
     padding: 12px 30px;
     border-radius: 30px;
     color: #fff;
