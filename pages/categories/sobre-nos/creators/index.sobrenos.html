@@ -116,7 +116,7 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         initialSlide: 2,
-        effect: "coverflow",                
+        effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
@@ -127,9 +127,14 @@
           modifier: 1,
           slideShadows: false,
         },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: false,
+        },
         pagination: {
           el: ".swiper-pagination",
         },
+
       });
     </script>
   </main>
