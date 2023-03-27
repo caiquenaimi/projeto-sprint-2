@@ -31,8 +31,12 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 #s2 {
 
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
     width: 40%;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
 }
 
 .h21 {
@@ -44,8 +48,11 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 #s3 {
 
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
     width: 40%;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+
 }
 
 /* /centralizando/ */
@@ -67,10 +74,12 @@ h2 {
     color: rgb(51, 51, 51);
 }
 .linha{
-    border: solid 1px black;
-    text-align: center;
-    margin-top: 10px;
-    
+    text-align: justify;
+    padding: 10px;
+    width: 100%;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+
   } 
 
   #img2:hover{
@@ -211,4 +220,30 @@ input:checked+.avaliacaoMateria article section #mais {
     justify-content: center;
     gap: 2px;
 }
+/* padding titulo  */
+.titulo {
+    margin-top: 190px;
+}
 
+/* fix footer */
+footer iframe {
+    margin-bottom: -5px;
+}
+
+/* fix header */
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 
