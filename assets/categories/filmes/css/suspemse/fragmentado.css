@@ -9,6 +9,23 @@ body {
     text-align: center;
     
 }
+/* animacao elenco */
+#img2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+    -webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+    -moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
+}
+
+/* titulo */
+.linha{
+    border: solid 1px #2155a8;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
+
 
 /* /sections/ */
 #s1 {

@@ -66,6 +66,14 @@ h2 {
     text-align: justify;
     color: rgb(51, 51, 51);
 }
+/* titulo */
+.linha{
+    border: solid 1px #2155a8;
+    text-align: center;
+    margin-top: 10px;
+    
+  } 
+
 
 #a3 {
     text-align: justify;
