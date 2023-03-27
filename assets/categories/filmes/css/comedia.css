@@ -8,9 +8,7 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 20px;
-    margin-bottom: 20px;
-
+  
 }
 
 main {
@@ -18,13 +16,15 @@ main {
     width: 100%;
     height: 100%;
 }
-.linha{
+
+.linha {
     border: solid 1px #2155a8;
     text-align: center;
     margin-top: 10px;
-    
-  } 
-  /*  estilizacao dos cards de comedia */
+
+}
+
+/*  estilizacao dos cards de comedia */
 
 .webinar-grid {
     width: 190%;
@@ -34,6 +34,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 150px;
 }
 
 .link-block {
@@ -65,7 +66,7 @@ main {
     font-weight: 500;
     text-transform: uppercase;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
-    
+
 }
 
 .link-block .dundas-blue-link:hover {
@@ -124,7 +125,8 @@ main {
 .webinar-content-box p {
     /* texto */
     padding: 40px 20px 70px 0;
-    color: #f0f0f0;;
+    color: #f0f0f0;
+    ;
 }
 
 .webinar-content-box a {
@@ -144,3 +146,26 @@ main {
 .imagemromance {
     border-radius: 2%;
 }
+
+/* fix footer */
+footer iframe {
+    margin-bottom: -5px;
+}
+
+/* fix header */
+.header-upper {
+    z-index: 999;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 
