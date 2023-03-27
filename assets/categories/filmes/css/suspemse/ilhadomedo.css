@@ -49,6 +49,9 @@ a:hover {
     text-align: justify;
     padding: 20px;
     width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
 }
 
 .h21 {
@@ -62,6 +65,9 @@ a:hover {
     text-align: justify;
     padding: 20px;
     width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
 }
 
 /* /centralizando/ */
@@ -217,3 +223,31 @@ input:checked+.avaliacaoMateria article section #mais {
     justify-content: center;
     gap: 2px;
 }
+
+ /* padding titulo  */
+ .titulo {
+    margin-top: 190px;
+}
+
+/* fix footer */
+footer iframe {
+    margin-bottom: -5px;
+}
+
+/* fix header */
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 
