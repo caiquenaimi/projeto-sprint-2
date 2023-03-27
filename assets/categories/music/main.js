@@ -78,3 +78,19 @@ audio.addEventListener("ended", nextSong);
 
 // Init
 loadSong(songs[songIndex]);
+
+
+document.addEventListener('keydown', function(event) {
+  if (event.code === 'Space') {
+    event.preventDefault();
+    const isPlaying = musicContainer.classList.contains("play");
+    isPlaying ? pauseSong() : playSong();
+  }
+  else if (event.code === 'ArrowRight') {
+    event.preventDefault();
+    nextSong();
+  } else if (event.code === 'ArrowLeft') {
+    event.preventDefault();
+    prevSong();
+  }
+});
