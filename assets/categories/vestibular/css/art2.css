@@ -128,7 +128,7 @@ article #legendaImagem {
 }
 
 .h1artigos {
-    padding: 10px;
+    padding: 8px;
 }
 
 p {
@@ -144,7 +144,7 @@ p {
 }
 
 li {
-    list-style-type: none;
+  
     font-size: 19px;
     margin-left: 10px;
     line-height: 22px;
@@ -155,8 +155,9 @@ li {
 .textosvest {
     padding: 18px;
 }
-
+/* fix footer */
 footer iframe {
     margin-bottom: -5px;
     width: 100%;
 }
+

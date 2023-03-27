@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../../../assets/categories/livro/css/terror.style.css">
-    <title>kaminews</title>
+    <link rel="icon" href="../../../../assets/images/logokami-semFundo.png" type="image/x-icon">
+    <title>Terror - KamiNews</title>
 </head>
 <!-- corpo -->
 
@@ -13,10 +14,11 @@
         <header class="header-upper">
             <iframe src="../../../../layouts/header.html" scrolling="no" width="100%" frameborder="0"></iframe>
         </header>
-        <h1>Gênero Terror</h1>
+
         <div class="container">
             <!-- article -->
             <article id="a1">
+                <h1 id="title">Gênero Terror</h1>
                 <!-- card -->
                 <section id="s1">
                     <h2>Explicação do gênero:</h2>
@@ -40,17 +42,96 @@
                         <li>Anne Rice</li>
                 </section>
             </article>
+            <!-- aside que ficara do lado afins de mostrar os topicos do site -->
+            <aside>
+                <h2 id="maisLidos">Tópicos KamiNews</h2>
+                <a href="../../vestibular/index.html" target="_parent" class="card-2">
+                    <p>
+                        <img src="../../../../assets/images/vestibularTopico.jpg" width="80px" height="100px"
+                            alt="imagem Vestibular - https://www.ufms.br/manual-do-candidato-apresenta-orientacoes-sobre-o-vestibular-e-passe-2023/">
+                    </p>
+                    <div class="legend">
+                        <h1>Vestibular</h1>
+                        <p>Conheça nosso tópico sobre vestibular e veja todas as informações que precisa.
+                        </p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../../filmes/index.html" target="_parent" class="card-2">
+                    <p>
+                        <img src="../../../../assets/images/filmeTopico.jpg" width="80px"
+                            alt="filme TUDO EM TODO O LUGAR AO MESMO TEMPO">
+                    </p>
+                    <div class="legend">
+                        <h1>Filmes</h1>
+                        <p>Conheça nosso tópico sobre filmes e veja algumas sugestões para assistir na sua própria
+                            casa.
+                        </p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../../livros/index.html" target="_parent" class="card-2">
+                    <p>
+                        <img src="../../../../assets/images/diarioDeumBananaLivros.jpg" width="80px"
+                            alt="Livro Diario de um banana">
+                    </p>
+                    <div class="legend">
+                        <h1>Livros</h1>
+                        <p>Conheça nosso tópico sobre livros e veja algumas sugestões dos mais variados gêneros.
+                        </p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../../e-sports/index.html" target="_parent" class="card-2">
+                    <p>
+                        <img src="../../../../assets/images/esportsTopico.jpg" width="80px"
+                            alt="Livro Diario de um banana">
+                    </p>
+                    <div class="legend">
+                        <h1>Esports</h1>
+                        <p>Conheça nosso tópico sobre e-sports e veja as principais notícias sobre o competitivo de
+                            CS:GO e Valorant.
+                        </p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../../e-sports/index.html" target="_parent" class="card-2">
+                    <p>
+                        <img src="../../../../assets/categories/series/images/theLastofUs - topicos.jpg" width="80px"
+                            alt="imagemTheLastOfUs">
+                    </p>
+                    <div class="legend">
+                        <h1>Series</h1>
+                        <p>Conheça nosso tópico sobre séries e veja algumas sugestões para assistir na sua própria
+                            casa.
+                        </p>
+                    </div>
+                </a>
+                <hr>
+            </aside>
         </div>
         <div class="books">
             <h2 class="tt2">Livros de Terror</h2>
 
             <!-- carrossel -->
             <section class="slider">
-                <input name="slide" type="radio">
-                <input name="slide" type="radio" checked>
-                <input name="slide" type="radio">
-                <input name="slide" type="radio">
+                <input type="radio" id="first" name="slide" class="input-radio" value="value1">
+                <label for="first">
+                    <div class="radio-btn"></div>
 
+                </label>
+                <input id="second" class="input-radio" value="value2" name="slide" type="radio" checked>
+                <label for="second">
+                    <div class="radio-btn"></div>
+                </label>
+                <input class="input-radio" value="value3" name="slide" type="radio" id="third">
+                <label for="third">
+                    <div class="radio-btn"></div>
+                </label>
+                <input class="input-radio" value="value4" name="slide" type="radio" id="fourth">
+                <label for="fourth">
+                    <div class="radio-btn"></div>
+                </label>
                 <div class="slider-content">
                     <div class="slider-item">
                         <p class="p1">Orfanato das crianças peculiares</p> <img
@@ -60,12 +141,11 @@
                             desse
                             orfanato possuem poderes sobrenaturais, assim o local se torna alvo da sociedade.</p>
                     </div>
-
                     <div class="slider-item">
                         <p class="p1">O Exorcista </p><img
                             src="../../../../assets/categories/livro/images/exorcista.jpg" width="15%" height="70%"
                             alt="capa do livro 'o exorcista'">
-                        <p class="p2">Uma atriz percebe o comportamento anormal da sua filha de 12 anos. Mesmo passando
+                        <p>Uma atriz percebe o comportamento anormal da sua filha de 12 anos. Mesmo passando
                             por
                             vários
                             médicos, sem mais recursos científicos os doutores recomendam um exorcismo. Um padre
@@ -96,6 +176,115 @@
 
 
     </main>
+    <!--   checkbox para abrir e fechar os depoimentos -->
+    <input type="checkbox" id="veja">
+    <!--   avaliacao dos depoimentos -->
+    <div class="avaliacaoMateria">
+        <article>
+            <section>
+                <h1>Depoimentos (3)</h1>
+                <label id="mais" for="veja">Veja todos</label>
+                <label id="menos" for="veja">Veja menos</label>
+            </section>
+            <section class="notas">
+                <h2>Média:</h2>
+                <div class="media">
+                    <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                        alt="estrela">
+                    <h2>10</h2>
+                </div>
+            </section>
+            <!-- depoimentos -->
+            <div class="depoiments">
+                <section class="cards">
+                    <!-- depoimento 1 -->
+                    <div class="card">
+                        <img class="user" src="../../../../assets/categories/e-sports/images/fallen-liquid.jpg"
+                            alt="imagemFallen">
+                        <h3>Fallen</h3>
+                        <div class="stars">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                        </div>
+                        <span>"Muito insano competir um torneio mundial em casa, a torcida tava demais!, espero que
+                            todos que estão jogando se destaquem e óbvio se divirtam 👊."</span>
+                        <p>Publicado em 22 de março de 2023</p>
+                    </div>
+                    <!-- depoimento 2 -->
+                    <div class="card">
+                        <img class="user" src="../../../../assets/categories/e-sports/images/Coldzera.jpg"
+                            alt="Coldzera">
+                        <h3>Coldzera</h3>
+                        <div class="stars">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                        </div>
+                        <span>"Massa demais ver a nova molecada alcançando seus sonhos e jogando campeonatos tão
+                            importantes do cenário, boa sorte para todos os players!"
+                        </span>
+                        <p>Publicado em 20 de março de 2023</p>
+                    </div>
+                    <!-- depoimento 3 -->
+                    <div class="card">
+                        <img class="user" src="../../../../assets/categories/e-sports/images/Naldo-Benny.jpg"
+                            alt="Naldo Benny">
+                        <h3>Naldo benny</h3>
+                        <div class="stars">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                            <img class="stars"
+                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                                alt="estrela">
+                        </div>
+                        <span>"Poucos sabem mais eu que fundei a valve e criei o cs, inclusive to bancando esse
+                            campeonato que não é nada mais nada menos do que um lugar especial para pessoas especiais
+                            ⭐."
+                        </span>
+                        <p>Publicado em 21 de março de 2023</p>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
     <footer>
         <iframe src="../../../../layouts/footer.html" scrolling="no" width="100%" height="340px"
             frameborder="0"></iframe>

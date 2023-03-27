@@ -150,13 +150,13 @@ a:hover {
 }
 
 .linkblock .titulo1 {
-    background: rgba(40, 150, 211, 1);
-    border: solid 1px rgba(40, 150, 211, 1);
+    background-image: linear-gradient(45deg, #c1d8f6, #509bfa);
     padding: 8px 25px;
     color: #fff !important;
     width: auto;
     position: relative;
     top: 70px;
+    font-weight: bold;
     
     text-align: center;
     text-decoration: none;
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .linkblock .titulo1:hover {
-opacity: 0;
+
     background: white;
     color: rgb(15, 121, 177) !important;
 }

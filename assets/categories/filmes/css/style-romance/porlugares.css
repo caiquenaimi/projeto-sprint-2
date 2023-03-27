@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+}
+
+ /* padding titulo  */
+ .titulo {
+    margin-top: 190px;
+}
+/* titulo */
+.linha{
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+  } 
+
+/* /sections/ */
+#s1 {
+
+    text-align: justify;
+    padding: 10px;
+}
+
+.pimagem {
+    text-align: center
+}
+
+#img2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+    -webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+    -moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+    -webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+    -moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
+}
+
+#s2 {
+
+    text-align: justify;
+    padding: 20px;
+    width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+}
+
+.h21 {
+    text-align: justify;
+    padding: 20px;
+    width: 40%;
+}
+
+#s3 {
+
+    text-align: justify;
+    padding: 20px;
+    width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+}
+
+/* /centralizando/ */
+article {
+
+    gap: 50px;
+    margin-left: 7%;
+    margin-top: 5%;
+
+}
+
+/* /titulo/ */
+h2 {
+    margin-top: 5%;
+}
+
+.legend {
+    text-align: justify;
+    color: rgb(51, 51, 51);
+}
+
+#a3 {
+    text-align: justify;
+}
+li{
+    line-height: 22px;
+    padding: 4px;
+}
+
+/* avaliacao sobre a matéria */
+
+.avaliacaoMateria {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.avaliacaoMateria article section {
+    display: flex;
+    align-items: baseline;
+}
+
+.avaliacaoMateria article section label {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.avaliacaoMateria article section label:hover {
+    color: #383838;
+}
+
+.avaliacaoMateria article section label:active {
+    color: #3c4ffa;
+}
+
+.avaliacaoMateria article .notas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.avaliacaoMateria article .notas .media {
+    display: flex;
+    gap: 10px;
+}
+
+input:checked+.avaliacaoMateria article .depoiments {
+    display: block;
+}
+
+input:checked+.avaliacaoMateria article section #menos {
+    display: block;
+}
+
+input:checked+.avaliacaoMateria article section #mais {
+    display: none;
+}
+
+#menos {
+    display: none;
+}
+
+#veja {
+    display: none;
+}
+
+/* estilizacao dos depoimentos sobre a matéria */
+
+.depoiments {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: none;
+}
+
+
+.depoiments h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    justify-content: baseline;
+}
+
+.depoiments .cards .card p {
+    font-style: italic;
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    bottom: 0;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.cards .card {
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+    box-shadow: 6px 6px 10px #000;
+    border-radius: 10px;
+    width: calc(100% / 3);
+}
+
+.cards .card h3 {
+    margin: 10px 0 5px 0;
+}
+
+.cards .card span {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card .user {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stars {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+ /* padding titulo  */
+ .titulo {
+    margin-top: 190px;
+}
+
+/* fix footer */
+footer iframe {
+    margin-bottom: -5px;
+}
+
+/* fix header */
+.header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 

@@ -28,7 +28,7 @@ body {
  .header-upper iframe:hover {
     height: 500px;
 } 
-
+/* configuraçoes do corpo do site */
 main {
     background-color: rgb(255, 255, 255);
     padding: 10px;
@@ -195,14 +195,14 @@ main {
 
 .link-block .dundas-blue-text-long {
     position: absolute;
-    top: 140px;
+    top: 190px;
     transition: all 0.8s cubic-bezier(.25, .8, .25, 1);
     background-color: azure;
     z-index: 100;
     font-weight: 100;
     color: rgba(40, 150, 211, .9);
     font-size: 22px;
-    padding: 40px 100px;
+    padding: 60px 10px;
     opacity: 1;
 }
 
@@ -229,7 +229,7 @@ main {
 }
 
 .webinar-content-box p {
-    padding: 0 0 20px 0;
+    padding: 0 0 20px 10px;
     color: #6a6a6a;
 }
 
