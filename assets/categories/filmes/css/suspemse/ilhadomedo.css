@@ -11,9 +11,12 @@ body {
 }
 /* titulo */
 .linha{
-    border: solid 1px #2155a8;
-    text-align: center;
-    margin-top: 10px;
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
     
   } 
 
@@ -215,7 +218,7 @@ input:checked+.avaliacaoMateria article section #mais {
     object-fit: cover;
     border-radius: 50%;
 }
-
+/* configuracoes estrelas */
 .stars {
     width: 20px;
     height: 20px;
