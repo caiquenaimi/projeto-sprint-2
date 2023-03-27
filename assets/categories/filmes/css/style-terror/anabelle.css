@@ -10,6 +10,18 @@ body {
 
 }
 
+/* titulo */
+.linha{
+    border: solid 1px #2155a8;
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+/* espaçamento das linhas */
+li{
+    line-height: 22px;
+    padding: 4px;
+}
 /* /sections/ */
 #s1 {
 
