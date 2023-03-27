@@ -18,7 +18,7 @@ body {
     left: 0;
     position: absolute;
     width: 100%;
-    
+    padding-bottom: 200px;
 }
 
 .header-upper iframe {
@@ -35,6 +35,10 @@ main {
 }
 
 /* estilizacao do carrosel */
+
+.space {
+    height: 50px;
+}
 
 .slide img {
     border-radius: 5px;
