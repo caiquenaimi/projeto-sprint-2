@@ -33,6 +33,9 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     text-align: justify;
     padding: 20px;
     width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
 }
 
 .h21 {
@@ -46,6 +49,9 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     text-align: justify;
     padding: 20px;
     width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
 }
 
 /* /centralizando/ */
@@ -233,3 +239,13 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 footer iframe {
     margin-bottom: -5px;
 }
+.linha{
+text-align: justify;
+padding: 20px;
+width: 100%;
+text-align: justify;
+border-top: solid 3px cadetblue;
+border-radius: 6px;
+}
+
+
