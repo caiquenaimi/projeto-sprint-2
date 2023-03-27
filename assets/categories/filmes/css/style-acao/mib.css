@@ -230,30 +230,6 @@ footer iframe {
     margin-bottom: -5px;
 }
 
-/*  fix header */
-
-.header-upper {
-    z-index: 5;
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    
-}
-
-.header-upper iframe {
-    height: 180px;
-}
-
- .header-upper iframe:hover {
-    height: 500px;
-} 
-
-/* fix footer */
-footer iframe {
-    margin-bottom: -5px;
-}
-
 /* fix header */
 .header-upper {
     z-index: 5;
