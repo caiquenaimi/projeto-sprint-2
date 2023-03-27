@@ -243,3 +243,9 @@ input:checked+.avaliacaoMateria article section #mais {
 .titulo {
     margin-top: 190px;
 }
+
+
+/* fix footer */
+footer iframe {
+    margin-bottom: -5px;
+}
