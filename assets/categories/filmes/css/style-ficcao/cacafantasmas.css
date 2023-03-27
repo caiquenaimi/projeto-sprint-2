@@ -31,8 +31,13 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 #s2 {
 
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
     width: 40%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    
 }
 
 .h21 {
@@ -42,10 +47,13 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 }
 
 #s3 {
+ text-align: justify;
+padding: 20px;
+width: 40%;
+text-align: justify;
+border-top: solid 3px cadetblue;
+border-radius: 6px;
 
-    text-align: justify;
-    padding: 20px;
-    width: 40%;
 }
 
 /* /centralizando/ */
@@ -197,4 +205,47 @@ input:checked+.avaliacaoMateria article section #mais {
     justify-content: center;
     gap: 2px;
 }
+/* fix footer */
+footer iframe {
+    margin-bottom: -5px;
+}
+ /* fix header */
+ .header-upper {
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.header-upper iframe {
+    height: 180px;
+}
+
+ .header-upper iframe:hover {
+    height: 500px;
+} 
+
+  /* padding titulo  */
+  .titulo {
+    margin-top: 190px;
+}
+.linha{
+text-align: justify;
+padding: 20px;
+width: 100%;
+text-align: justify;
+border-top: solid 3px cadetblue;
+border-radius: 6px;
+}
+/* hover elenco */
+#img2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+    -webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+    -moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
+}
+
 
