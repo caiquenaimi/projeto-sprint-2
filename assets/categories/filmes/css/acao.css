@@ -14,8 +14,13 @@ body {
 }
 /* linha */
 .linha{
-  border: solid 1px #2155a8;
-  text-align: center;
+/* titulo */
+  text-align: justify;
+  padding: 20px;
+  width: 100%;
+  text-align: justify;
+  border-top: solid 3px cadetblue;
+  border-radius: 6px;
   
 }
 

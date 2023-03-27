@@ -197,4 +197,19 @@ input:checked+.avaliacaoMateria article section #mais {
     justify-content: center;
     gap: 2px;
 }
+  /* padding titulo  */
+  .titulo {
+    margin-top: 190px;
+}
+
+/* titulo */
+.linha{
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+    border-top: solid 3px cadetblue;
+    border-radius: 6px;
+    
+  } 
 
