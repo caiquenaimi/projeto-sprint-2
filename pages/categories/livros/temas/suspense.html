@@ -1,194 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <link href="../../../../assets/categories/livro/css/suspense.style.css" rel="stylesheet">
-    <title>kaminews</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../../../assets/categories/livro/css/suspense.style.css">
+  <link rel="icon" href="../../../../assets/images/logokami-semFundo.png" type="image/x-icon">
+  <title>Suspense - KamiNews</title>
 </head>
+<!-- corpo -->
 
 <body>
+  <main>
+    <header class="header-upper">
+      <iframe src="../../../../layouts/header.html" scrolling="no" width="100%" frameborder="0"></iframe>
+    </header>
 
-    <main>
-        <header class="header-upper">
-            <iframe src="../../../../layouts/header.html" scrolling="no" width="100%" frameborder="0"></iframe>
-        </header>
-        <div class="main2">
-            <!-- class container -->
-            <div class="container">
-                <!-- subtitulo -->
+    <div class="container">
+      <!-- article -->
+      <article id="a1">
+        <h1 id="title">Suspense</h1>
+        <!-- card -->
+        <section id="s1">
+          <h2>Explicação do do gênero suspense:</h2>
+          <p>È um gênero que tem como objetivo causar situação de aflição e questionamento ao leitor, em que o protagonista se encontra em situações de perigo que a mesma não se da conta.</p>
+        </section>
+        <section id="s2">
+          <h2>Características</h2>
+          <p>A linguagem é recheada de descrições e detalhamentos. Geralmente com capitúlos que acabam em partes angustiantes. Acontece em ambientes sombrios.</p>
+        </section>
+        <section id="s3">
+          <h2>Alguns autores:</h2>
+          <ul>
+            <li>Agatha Cristie</li>
+            <li>Charlie Donlea</li>
+            <li>Alex Michaelides</li>
+        </section>
+      </article>
+      <!-- aside que ficara do lado afins de mostrar os topicos do site -->
+      <aside>
+        <h2 id="maisLidos">Tópicos KamiNews</h2>
+        <a href="../../vestibular/index.html" target="_parent" class="card-2">
+          <p>
+            <img src="../../../../assets/images/vestibularTopico.jpg" width="80px" height="100px"
+              alt="imagem Vestibular - https://www.ufms.br/manual-do-candidato-apresenta-orientacoes-sobre-o-vestibular-e-passe-2023/">
+          </p>
+          <div class="legend">
+            <h1>Vestibular</h1>
+            <p>Conheça nosso tópico sobre vestibular e veja todas as informações que precisa.
+            </p>
+          </div>
+        </a>
+        <hr>
+        <a href="../../filmes/index.html" target="_parent" class="card-2">
+          <p>
+            <img src="../../../../assets/images/filmeTopico.jpg" width="80px"
+              alt="filme TUDO EM TODO O LUGAR AO MESMO TEMPO">
+          </p>
+          <div class="legend">
+            <h1>Filmes</h1>
+            <p>Conheça nosso tópico sobre filmes e veja algumas sugestões para assistir na sua própria
+              casa.
+            </p>
+          </div>
+        </a>
+        <hr>
+        <a href="../../livros/index.html" target="_parent" class="card-2">
+          <p>
+            <img src="../../../../assets/images/diarioDeumBananaLivros.jpg" width="80px"
+              alt="Livro Diario de um banana">
+          </p>
+          <div class="legend">
+            <h1>Livros</h1>
+            <p>Conheça nosso tópico sobre livros e veja algumas sugestões dos mais variados gêneros.
+            </p>
+          </div>
+        </a>
+        <hr>
+        <a href="../../e-sports/index.html" target="_parent" class="card-2">
+          <p>
+            <img src="../../../../assets/images/esportsTopico.jpg" width="80px" alt="Livro Diario de um banana">
+          </p>
+          <div class="legend">
+            <h1>Esports</h1>
+            <p>Conheça nosso tópico sobre e-sports e veja as principais notícias sobre o competitivo de
+              CS:GO e Valorant.
+            </p>
+          </div>
+        </a>
+        <hr>
+        <a href="../../e-sports/index.html" target="_parent" class="card-2">
+          <p>
+            <img src="../../../../assets/categories/series/images/theLastofUs - topicos.jpg" width="80px"
+              alt="imagemTheLastOfUs">
+          </p>
+          <div class="legend">
+            <h1>Series</h1>
+            <p>Conheça nosso tópico sobre séries e veja algumas sugestões para assistir na sua própria
+              casa.
+            </p>
+          </div>
+        </a>
+        <hr>
+      </aside>
+    </div>
+    <div class="books">
+      <h2 class="tt2">LIVROS FAMOSOS DE SUSPENSE</h2>
 
+      <!-- carrossel -->
+      <section class="slider">
+        <input type="radio" id="first" name="slide" class="input-radio" value="value1">
+        <label for="first">
+          <div class="radio-btn"></div>
 
-                <h1>Suspense</h1>
+        </label>
+        <input id="second" class="input-radio" value="value2" name="slide" type="radio" checked>
+        <label for="second">
+          <div class="radio-btn"></div>
+        </label>
+        <input class="input-radio" value="value3" name="slide" type="radio" id="third">
+        <label for="third">
+          <div class="radio-btn"></div>
+        </label>
+        <input class="input-radio" value="value4" name="slide" type="radio" id="fourth">
+        <label for="fourth">
+          <div class="radio-btn"></div>
+        </label>
+        <div class="slider-content">
+          <div class="slider-item">
+            <p class="p1">Paciente Silenciosa</p> <img src="../../../../assets/categories/livro/images/pacientesilenciosa.jpg" width="15%"
+              height="70%" alt="foto da capa do livro 'Paciente Silenciosa'">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore modi officiis facere, reiciendis
+              maxime illo ut obcaecati perferendis officia animi, asperiores laudantium quae veniam vel accusamus non
+              minus sed vero?</p>
+          </div>
+          <div class="slider-item">
+            <p class="p1">A Garota Do Lago</p><img src="../../../../assets/categories/livro/images/agarotadolago.jpg"
+              width="15%" height="70%" alt="capa do livro 'A Garota Do Lago'">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam numquam neque repudiandae expedita
+              dicta officiis eos ipsam hic odio quaerat maiores ea necessitatibus, et animi repellendus est iste id
+              provident.</p>
+          </div>
 
+          <div class="slider-item">
+            <p class="p1">Coraline</p> <img src="../../../../assets/categories/livro/images/coraline.jpg"
+              width="15%" height="70%" alt="foto da capa do livro 'Coraline'">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia ipsam obcaecati quam, quod
+              labore tempore deleniti blanditiis placeat aperiam molestiae odit reprehenderit harum inventore eligendi
+              iure eaque, cumque perspiciatis.</p>
+          </div>
 
-
-            </div>
-            <div class="container">
-                <article id="a1">
-                    <section id="s1">
-                        <h2> Explicação do do gênero suspense: </h2>
-                        <p>È um gênero que tem como objetivo causar situação de aflição e questionamento ao leitor, em
-                            que o protagonista se encontra em situações de perigo que a mesma não se da conta. </p>
-                    </section>
-                    <section id="s2">
-                        <h2>Características</h2>
-                        <p>A linguagem é recheada de descrições e detalhamentos. Geralmente com capitúlos que acabam em
-                            partes angustiantes. Acontece em ambientes sombrios.</p>
-                    </section>
-                    <section id="s3">
-                        <h2>Alguns autores:</h2>
-                        <ul>
-                            <li>Agatha Cristie;</li>
-                            <li>Charlie Donlea;</li>
-                            <li>Alex Michaelides.</li>
-                        </ul>
-                    </section>
-
-                </article>
-            </div>
-            <div class="books">
-                <h2 class="tt2">Livros Famosos de Suspense</h2>
-                <!-- carrossel -->
-                <section class="slider">
-                    <input name="slide" type="radio">
-                    <input name="slide" type="radio" checked>
-                    <input name="slide" type="radio">
-                    <input name="slide" type="radio">
-
-                    <div class="slider-content">
-                        <div class="slider-item">
-                            <p class="p1">Paciente Silenciosa</p> <img
-                                src="../../../../assets/categories/livro/images/pacientesilenciosa.jpg" width="15%"
-                                height="70%" alt="foto da capa do livro 'Paciente Silenciosa'">
-                        </div>
-
-                        <div class="slider-item">
-                            <p class="p1">A Garota Do Lago</p><img
-                                src="../../../../assets/categories/livro/images/agarotadolago.jpg" width="15%"
-                                height="70%" alt="capa do livro 'a gorota do lago'">
-                        </div>
-
-                        <div class="slider-item">
-                            <p class="p1">Coraline</p> <img
-                                src="../../../../assets/categories/livro/images/coraline.jpg" width="15%" height="70%"
-                                alt="foto da capa do livro 'coraline'">
-                        </div>
-
-                        <div class="slider-item">
-                            <p class="p1">O Iluminado</p><img
-                                src="../../../../assets/categories/livro/images/oiluminado.jpg" width="15%" height="70%"
-                                alt="foto da capa livro 'o iluminado'">
-                        </div>
-                    </div>
-                </section>
-            </div>
+          <div class="slider-item">
+            <p class="p1">O Iluminado</p><img
+              src="../../../../assets/categories/livro/images/oiluminado.jpg" width="15%"
+              height="70%" alt="foto da capa livro 'O Iluminado'">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod dolores quaerat, tempore voluptatem,
+              vero non magni quidem deleniti nostrum tempora sapiente, ducimus amet. Harum optio sed odio quis
+              laudantium.</p>
+          </div>
         </div>
-    </main>
-    <!--   checkbox para abrir e fechar os depoimentos -->
-    <input type="checkbox" id="veja">
-    <!--   avaliacao dos depoimentos -->
-    <div class="avaliacaoMateria">
-        <article>
-            <section>
-                <h1>Depoimentos (3)</h1>
-                <label id="mais" for="veja">Veja todos</label>
-                <label id="menos" for="veja">Veja menos</label>
-            </section>
-            <section class="notas">
-                <h2>Média:</h2>
-                <div class="media">
-                    <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                        alt="estrela">
-                    <h2>9.5</h2>
-                </div>
-            </section>
-            <!-- depoimentos -->
-            <div class="depoiments">
-                <section class="cards">
-                    <!-- depoimento 1 -->
-                    <div class="card">
-                        <img class="user" src="../../../../assets/categories/series/images/jenna ortega.jpg"
-                            alt="jenna ortega">
-                        <h3>Jenna Ortega</h3>
-                        <div class="stars">
-                            <img class="stars" src="../../../../assets/categories/e-sports/images/" alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                        </div>
-                        <span>"The series is simply amazing, met by your site and loved it!
-                            "</span>
-                        <p>Publicado em 02 de fevereiro de 2023</p>
-                    </div>
-                    <!-- depoimento 2 -->
-                    <div class="card">
-                        <img class="user" src="../../../../assets/categories/series/images/miley cryrus.jpg"
-                            alt="Miley Cyrus">
-                        <h3>Miley Cyrus</h3>
-                        <div class="stars">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                        </div>
-                        <span> "I found the story too weak!"
-                        </span>
-                        <p>Publicado em 05 de março de 2023</p>
-                    </div>
-                    <!-- depoimento 3 -->
-                    <div class="card">
-                        <img class="user" src="../../../../assets/categories/series/images/thimote.jpg" alt="Thimotte">
-                        <h3>Thimotte</h3>
-                        <div class="stars">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                            <img class="stars"
-                                src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
-                                alt="estrela">
-                        </div>
-                        <span>"I loved it very much, the main actress is beautiful!"</span>
-                        <p>Publicado em 20 de fevereiro de 2023</p>
-                    </div>
-                </section>
-            </div>
-        </article>
+
+      </section>
     </div>
 
 
-    <footer>
 
-        <iframe src="../../../../layouts/footer.html" scrolling="no" width="100%" height="340px"
-            frameborder="0"></iframe>
-    </footer>
-
+  </main>
+  <!--   checkbox para abrir e fechar os depoimentos -->
+  <input type="checkbox" id="veja">
+  <!--   avaliacao dos depoimentos -->
+  <div class="avaliacaoMateria">
+    <article>
+      <section>
+        <h1>Depoimentos (3)</h1>
+        <label id="mais" for="veja">Veja todos</label>
+        <label id="menos" for="veja">Veja menos</label>
+      </section>
+      <section class="notas">
+        <h2>Média:</h2>
+        <div class="media">
+          <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+            alt="estrela">
+          <h2>9.5</h2>
+        </div>
+      </section>
+      <!-- depoimentos -->
+      <div class="depoiments">
+        <section class="cards">
+          <!-- depoimento 1 -->
+          <div class="card">
+            <img class="user" src="../../../../assets/categories/series/images/jenna ortega.jpg" alt="jenna ortega">
+            <h3>Jenna Ortega</h3>
+            <div class="stars">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/" alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+            </div>
+            <span>"The series is simply amazing, met by your site and loved it!
+              "</span>
+            <p>Publicado em 02 de fevereiro de 2023</p>
+          </div>
+          <!-- depoimento 2 -->
+          <div class="card">
+            <img class="user" src="../../../../assets/categories/series/images/miley cryrus.jpg" alt="Miley Cyrus">
+            <h3>Miley Cyrus</h3>
+            <div class="stars">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+            </div>
+            <span> "I found the story too weak!"
+            </span>
+            <p>Publicado em 05 de março de 2023</p>
+          </div>
+          <!-- depoimento 3 -->
+          <div class="card">
+            <img class="user" src="../../../../assets/categories/series/images/thimote.jpg" alt="Thimotte">
+            <h3>Thimotte</h3>
+            <div class="stars">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+              <img class="stars" src="../../../../assets/categories/e-sports/images/IMG_20230317_084721_329.svg"
+                alt="estrela">
+            </div>
+            <span>"I loved it very much, the main actress is beautiful!"</span>
+            <p>Publicado em 20 de fevereiro de 2023</p>
+          </div>
+        </section>
+      </div>
+    </article>
+  </div>
+  <footer>
+    <iframe src="../../../../layouts/footer.html" scrolling="no" width="100%" height="340px" frameborder="0"></iframe>
+  </footer>
 </body>
 
 </html>
