@@ -32,7 +32,7 @@ main {
 }
 /*sections*/
 #s1{
- border-top: solid 3px cadetblue;
+ border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
 border-radius: 6px;
@@ -42,14 +42,14 @@ border-radius: 6px;
   display: flex;
 }
 #s2{
-  border-top: solid 3px cadetblue;
+  border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
 border-radius: 6px;
 width: 40%;
 }
 #s3{
-  border-top: solid 3px cadetblue;
+  border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
 border-radius: 6px;

@@ -1,12 +1,12 @@
 *{
   margin:0;
   padding:0;
- border: box;
+ box-sizing: border-box;
 }
 body{
  font-family: system-ui;
-  text-align: center;
-  padding: 20px;
+  
+  
 }
 /*concertando header*/
 .header-upper {
@@ -32,21 +32,23 @@ main {
 }
 /*sections*/
 #s1{
- border-top: solid 3px cadetblue;
+ border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
 border-radius: 6px;
+margin-left: 5%;
+width: 90%;
 
 }
 #s2{
-  border-top: solid 3px cadetblue;
+  border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
 border-radius: 6px;
 width: 40%;
 }
 #s3{
-  border-top: solid 3px cadetblue;
+  border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
 border-radius: 6px;
@@ -56,14 +58,12 @@ width: 40%;
 article{
 
   gap: 50px;
-  margin-left: 7%;
+  margin-left: 5%;
   margin-top: 5%;
 
 }
-/*titulo*/
-h2{
-  margin-top: 5%;
-}
+
+
 /*imagens*/
 #img1:hover{
 transform: scale(1.1) ;
@@ -74,9 +74,18 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 /*titulos*/
 h2{
  margin-top: 1%;
+
+
+}
+#tt2{
+  margin-top: 1%;
+  margin-left: 5%;
+ margin: 20px;
+ border-top: solid 3px #3c4ffa;
 }
 h1{
  margin-bottom: 1%;
+ text-align: center;
 }
 /*div imagens*/
 .container2{
