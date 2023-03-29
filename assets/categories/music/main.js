@@ -1,3 +1,5 @@
+/* constantes para pegar os elementos por ID. */
+
 const musicContainer = document.getElementById("music-container");
 const playButton = document.getElementById("play");
 const prevButton = document.getElementById("prev");
@@ -8,19 +10,23 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
+/* link dos arquivos de música */
 const songs = ["Clickbait - Veigh", "Calm Down - Rema, Selena Gomez", "Die For You - The Weekend, Ariana Grande", "Eyes Closed - Ed Sheeran", "Flowers - Miley Cyrus", "Leão - Marília Mendonça", "Lovezinho - Treyce", "Nosso Quadro - Ana Castela", "Paradise - Coldplay", "Perdoa Por Tudo Vida - Veigh"];
 let songIndex = 1;
 
+/* function para puxar dos aquivos das músicas */
 function getSongTitle(song) {
   return song.charAt(0).toUpperCase() + song.slice(1);
 }
 
+/* function para buscar as músicas e as capas */
 function loadSong(song) {
   title.innerText = getSongTitle(song);
   audio.src = `../../../assets/categories/music/mp3/${song}.mp3`;
   cover.src = `../../../assets/categories/music/images/${song}.jpg`;
 }
 
+/* function para o icone e função de dar play na música */
 function playSong() {
   musicContainer.classList.add("play");
   playButton.querySelector("i.fas").classList.remove("fa-play");
@@ -28,6 +34,7 @@ function playSong() {
   audio.play();
 }
 
+/* function para o icone e função de dar pause na música */
 function pauseSong() {
   musicContainer.classList.remove("play");
   playButton.querySelector("i.fas").classList.remove("fa-pause");
@@ -35,6 +42,7 @@ function pauseSong() {
   audio.pause();
 }
 
+/* function para o icone e função de dar voltar a música */
 function prevSong() {
   songIndex--;
   if (songIndex < 0) songIndex = songs.length - 1;
@@ -42,6 +50,7 @@ function prevSong() {
   playSong();
 }
 
+/* function para o icone e função de pular na música  */
 function nextSong() {
   songIndex++;
   if (songIndex > songs.length - 1) songIndex = 0;
@@ -49,12 +58,14 @@ function nextSong() {
   playSong();
 }
 
+/* function para progresso da barra da música*/
 function updateProgress(e) {
   const { duration, currentTime } = e.srcElement;
   const progressPercent = (currentTime / duration) * 100;
   progress.style.width = `${progressPercent}%`;
 }
 
+/* function para interação com a barra em clicar e mudar a progressão */
 function setProgress(e) {
   const width = this.clientWidth;
   const clickX = e.offsetX;
@@ -95,5 +106,5 @@ document.addEventListener('keydown', function (event) {
   }
 
 
-  
+
 });
