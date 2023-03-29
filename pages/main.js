@@ -51,4 +51,11 @@ function openModal() {
       openModal();
     }
   });
+  // Adiciona manipulador de eventos para fechar a janela modal ao clicar fora dela
+  document.addEventListener('click', function (event) {
+    const modal = document.getElementById('modal-container');
+    if (event.target === modal) {
+      modal.classList.remove('mostrar');
+    }
+  });
 }
