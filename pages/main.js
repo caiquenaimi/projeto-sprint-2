@@ -1,8 +1,10 @@
+/* function abrir a modal */
 function openModal() {
   const nome = document.getElementById('nome-box').value;
   const email = document.getElementById('email-box').value;
   const telefone = document.getElementById('nome-box').value;
 
+  /* se os campos do formulario estiverem vazios irá exibir um alerta */
   if (nome === '' || email === '' || telefone === '') {
     alert('Por favor, preencha todos os campos antes de enviar o formulário.');
   } else {
@@ -10,6 +12,7 @@ function openModal() {
     modal.classList.add('mostrar');
   }
 
+  /* configuração fechar a modal */
   const fechar = document.getElementById('fechar');
   fechar.addEventListener('click', () => {
     const modal = document.getElementById('modal-container');
