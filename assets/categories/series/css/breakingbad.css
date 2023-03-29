@@ -8,7 +8,7 @@ body {
   font-family: system-ui;
   
 }
-
+/*fazendo header funcionar*/
 .header-upper {
   z-index: 5;
   top: 0;
@@ -41,19 +41,38 @@ main {
 
 .elenco {
   text-align: center;
+  border-top: solid 3px #3c4ffa;
+  
+}
+.container2{
+  display: flex;
+  margin-left: 35%;
+  gap: 30px;
+}
+/*hover imagem do elenco*/
+#img2:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
+  -webkit-box-shadow: -4px -1px 46px -7px rgba(18, 16, 16, 0.75);
+  -moz-box-shadow: -4px -1px 46px -7px rgba(30, 25, 25, 0.75);
 }
 
 #s1 {
-
-
+  margin-left: 4%;
+  border-top: solid 3px #3c4ffa;
   text-align: justify;
-  padding: 20px;
-
+  padding: 10px;
+  border-radius: 4px;
 
 }
-
+/*section*/
 #s1 p {
+
   font-size: 22px;
+ 
+ 
 }
 
 p {
@@ -66,20 +85,25 @@ ul {
   font-size: 22px;
   justify-content: center;
   padding: 5px;
+  margin-left: 2%;
 }
 
 #s2 {
-
+ border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
+  width: 40%;
+  margin-left: 4%;
+  border-radius: 4px;
 }
 
 #s3 {
-
+   border-top: solid 3px #3c4ffa;
   text-align: justify;
   padding: 20px;
-
+border-radius: 4px;
   width: 40%;
+  margin-left: 4%;
 }
 
 #a3 {
@@ -96,6 +120,12 @@ article {
 
 h2 {
   margin-top: 5%;
+}
+#img1{
+  margin-left: 4%;
+}
+.legend{
+  margin-left: 4%;
 }
 
 /* avaliacao sobre a matéria */

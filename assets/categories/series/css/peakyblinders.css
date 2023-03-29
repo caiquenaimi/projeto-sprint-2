@@ -38,7 +38,7 @@ main {
 border-radius: 6px;
 margin-left: 5%;
 width: 90%;
-
+font-size: 22px;
 }
 #s2{
   border-top: solid 3px #3c4ffa;
@@ -46,6 +46,7 @@ width: 90%;
   padding: 20px;
 border-radius: 6px;
 width: 40%;
+font-size: 22px;
 }
 #s3{
   border-top: solid 3px #3c4ffa;
@@ -53,6 +54,7 @@ width: 40%;
   padding: 20px;
 border-radius: 6px;
 width: 40%;
+font-size: 22px;
 }
 /*centralizando*/
 article{
@@ -60,7 +62,7 @@ article{
   gap: 50px;
   margin-left: 5%;
   margin-top: 5%;
-
+  font-size: 22px;
 }
 
 
