@@ -34,7 +34,7 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     padding: 20px;
     width: 40%;
     text-align: justify;
-    border-top: solid 3px cadetblue;
+    border-top: solid 3px #3c4ffa;
     border-radius: 6px;
 }
 
@@ -50,7 +50,7 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
     padding: 20px;
     width: 40%;
     text-align: justify;
-    border-top: solid 3px cadetblue;
+    border-top: solid 3px #3c4ffa;
     border-radius: 6px;
 }
 
@@ -239,13 +239,23 @@ box-shadow: -4px -1px 46px -7px rgba(37, 31, 31, 0.75);
 footer iframe {
     margin-bottom: -5px;
 }
+
+/* linha para enfeite */
 .linha{
 text-align: justify;
 padding: 20px;
 width: 100%;
 text-align: justify;
-border-top: solid 3px cadetblue;
+border-top: solid 3px #3c4ffa;
 border-radius: 6px;
 }
 
-
+#elenco {
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
