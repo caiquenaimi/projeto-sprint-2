@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 body{
  font-family: system-ui;
-
+font-size: 20px;
  
 }
 h1{
@@ -34,6 +34,12 @@ main {
   padding: 20px;
   margin-top: 170px;
 }
+#img2{
+  margin-left: 4%;
+}
+.legend{
+  margin-left: 4%;
+}
 /*sections*/
 #s1{
  border-top: solid 3px #3c4ffa;
@@ -44,6 +50,9 @@ margin-left: 4%;
 }
 .container{
   display: flex;
+  margin-left: 41%;
+  gap: 50px;
+  margin-top: 1%;
 }
 #s2{
   border-top: solid 3px #3c4ffa;
@@ -71,7 +80,12 @@ article{
 h2{
   margin-top: 5%;
 }
+#tt2{
+  border-top: solid 3px #3c4ffa;
+  text-align: center;
+}
 /*imagens*/
+
 #img1:hover{
 transform: scale(1.1) ;
 transition: all 0.5s;

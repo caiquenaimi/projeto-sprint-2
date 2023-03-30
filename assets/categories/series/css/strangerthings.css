@@ -54,6 +54,7 @@ h1 {
 
 .container {
   display: flex;
+  gap: 20px;
 }
 
 #s2 {
@@ -70,13 +71,7 @@ h1 {
   border-radius: 6px;
 }
 
-/*centralizando*/
-article {
 
-  gap: 50px;
-
-
-}
 
 /*titulo*/
 h2 {

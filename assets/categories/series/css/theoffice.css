@@ -5,12 +5,13 @@
 }
 body{
  font-family: system-ui;
-  
+  font-size: 20px;
 }
 .container{
   display: flex;
   margin-left: 40%;
   gap: 30px;
+
 }
 #img2{
   margin-left: 4%;
@@ -96,6 +97,7 @@ h1{
 /*div imagens*/
 #h2tt{
   border-top: solid 3px #3c4ffa;
+  text-align: center;
 }
 .container2{
   
