@@ -32,12 +32,7 @@ main {
   margin-top: 190px;
 }
 
-.centerImg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 0;
-}
+
 
 h1 {
   text-align: center;
@@ -49,6 +44,7 @@ h1 {
   text-align: justify;
   padding: 20px;
   border-radius: 6px;
+  margin-left: 4%;
 
 }
 
@@ -62,6 +58,7 @@ h1 {
   text-align: justify;
   padding: 20px;
   border-radius: 6px;
+  margin-left: 4%;
 }
 
 #s3 {
@@ -69,6 +66,13 @@ h1 {
   text-align: justify;
   padding: 20px;
   border-radius: 6px;
+  margin-left: 4%;
+}
+#img2{
+  margin-left: 4%;
+}
+.legend{
+  margin-left: 4%;
 }
 
 
@@ -101,15 +105,10 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-top: solid 3px #3c4ffa;
 }
 
-.elenco h2 {
-  margin-bottom: 15px;
-  letter-spacing: 2px;
-  font-style: italic;
-  font-size: 35px;
-  text-transform: uppercase;
-}
+
 
 /*div imagens*/
 .container2 {
@@ -130,41 +129,7 @@ h1 {
   display: flex;
 }
 
-/* aside */
 
-aside {
-  width: 30%;
-  border-left: 1.5px solid #000;
-}
-
-aside hr {
-  margin: 20px;
-}
-
-aside #maisLidos {
-  margin-bottom: 20px;
-  margin-left: 5px;
-}
-
-aside .card-2 {
-  display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  color: #000;
-}
-
-aside .card-2 .legend {
-  display: block;
-}
-
-aside .card-2 .legend p {
-  text-align: justify;
-}
-
-aside .card-2 img {
-  margin: 0px 10px;
-}
 
 /* avaliacao sobre a matéria */
 
