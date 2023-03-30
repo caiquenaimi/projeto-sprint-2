@@ -5,7 +5,7 @@
 }
 body{
  font-family: system-ui;
-  
+  font-size: 20px;
   
 }
 /*concertando header*/
@@ -27,7 +27,7 @@ body{
 }
 main {
   background-color: white;
-  padding: 20px;
+  padding-top: 30px;
   margin-top: 170px;
 }
 /*sections*/
@@ -38,7 +38,7 @@ main {
 border-radius: 6px;
 margin-left: 5%;
 width: 90%;
-font-size: 22px;
+
 }
 #s2{
   border-top: solid 3px #3c4ffa;
@@ -46,7 +46,7 @@ font-size: 22px;
   padding: 20px;
 border-radius: 6px;
 width: 40%;
-font-size: 22px;
+
 }
 #s3{
   border-top: solid 3px #3c4ffa;
@@ -54,7 +54,7 @@ font-size: 22px;
   padding: 20px;
 border-radius: 6px;
 width: 40%;
-font-size: 22px;
+
 }
 /*centralizando*/
 article{
@@ -62,7 +62,7 @@ article{
   gap: 50px;
   margin-left: 5%;
   margin-top: 5%;
-  font-size: 22px;
+
 }
 
 
@@ -81,7 +81,7 @@ h2{
 }
 #tt2{
   margin-top: 1%;
-  margin-left: 5%;
+ text-align: center;
  margin: 20px;
  border-top: solid 3px #3c4ffa;
 }
